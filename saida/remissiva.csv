@@ -1,0 +1,242 @@
+id_remissiva;id_termo;forma_nao_preferida
+R0001;T001;fabricante
+R0002;T001;montadora
+R0003;T002;nome do carro
+R0004;T002;nome comercial
+R0005;T003;acabamento
+R0006;T003;trim
+R0007;T003;configuração
+R0008;T004;Categoria
+R0009;T004;segmento
+R0010;T004;porte
+R0011;T004;classe do veículo
+R0012;T004;tipo de carroceria
+R0013;T005;cilindrada
+R0014;T005;litragem
+R0015;T005;motor 1.0
+R0016;T006;câmbio
+R0017;T006;caixa de marchas
+R0018;T006;Transmissão Velocidades
+R0019;T007;Ar Cond
+R0020;T007;A/C
+R0021;T007;climatização
+R0022;T008;NMOG+NOx
+R0023;T008;gases orgânicos não metano
+R0024;T008;óxidos de nitrogênio
+R0025;T008;NOx
+R0026;T009;CO
+R0027;T009;monóxido de carbono
+R0028;T010;CHO
+R0029;T010;aldeídos
+R0030;T010;formaldeído e acetaldeído
+R0031;T011;classificação nas emissões
+R0032;T011;nota de poluentes
+R0033;T011;classificação de emissões
+R0034;T012;CO2
+R0035;T012;dióxido de carbono
+R0036;T012;gás carbônico
+R0037;T012;CO2 fóssil
+R0038;T013;CO2e
+R0039;T013;CO2 equivalente
+R0040;T013;CO2 do plug-in
+R0041;T014;km/l etanol cidade
+R0042;T014;consumo com etanol na cidade
+R0043;T014;autonomia urbana EHR
+R0044;T015;km/l etanol estrada
+R0045;T015;consumo com etanol na estrada
+R0046;T015;autonomia estrada EHR
+R0047;T016;km/l gasolina cidade
+R0048;T016;km/l diesel cidade
+R0049;T016;consumo com gasolina na cidade
+R0050;T016;autonomia urbana E22
+R0051;T017;km/l gasolina estrada
+R0052;T017;km/l diesel estrada
+R0053;T017;consumo com gasolina na estrada
+R0054;T017;autonomia estrada E22
+R0055;T018;km/le cidade
+R0056;T018;km/l equivalente cidade
+R0057;T018;MPGe
+R0058;T019;km/le estrada
+R0059;T019;km/l equivalente estrada
+R0060;T020;km/le etanol cidade
+R0061;T021;km/le etanol estrada
+R0062;T022;Consumo energético
+R0063;T022;CEC
+R0064;T022;CE
+R0065;T022;consumo energético combinado
+R0066;T022;consumo de energia
+R0067;T022;MJ/km
+R0068;T023;Autonomia no modo elétrico
+R0069;T023;Autonomia (alcance)
+R0070;T023;alcance
+R0071;T023;alcance elétrico
+R0072;T023;autonomia da bateria
+R0073;T023;AER
+R0074;T023;range
+R0075;T024;Classificação categoria
+R0076;T024;classificação relativa
+R0077;T024;nota na categoria
+R0078;T025;Classificação geral
+R0079;T025;classificação absoluta
+R0080;T025;nota geral
+R0081;T026;AUDI
+R0082;T027;Bayerische Motoren Werke
+R0083;T028;Build Your Dreams
+R0084;T029;CAOA CHANGAN
+R0085;T029;Changan
+R0086;T029;Avatr
+R0087;T030;CAOA CHERY
+R0088;T030;Chery
+R0089;T031;CHEVROLET
+R0090;T031;GM
+R0091;T031;Chevy
+R0092;T032;CITROEN
+R0093;T032;Citroen
+R0094;T033;DENZA
+R0095;T034;FARIZON
+R0096;T035;FERRARI
+R0097;T035;FERRARI (com espaço extra)
+R0098;T036;FIAT
+R0099;T037;FORD
+R0100;T038;FOTON
+R0101;T039;GAC Motor
+R0102;T039;Aion
+R0103;T040;GEELY
+R0104;T041;Great Wall
+R0105;T041;Great Wall Motor
+R0106;T042;HONDA
+R0107;T043;HYUNDAI
+R0108;T044;JAC Motors
+R0109;T045;JAECOO
+R0110;T045;Omoda & Jaecoo
+R0111;T046;JEEP
+R0112;T047;JETOUR
+R0113;T048;KIA
+R0114;T049;LAND ROVER
+R0115;T049;Range Rover
+R0116;T050;LEAPMOTOR
+R0117;T051;LEXUS
+R0118;T052;MCLAREN
+R0119;T053;MERCEDES-BENZ
+R0120;T053;Mercedes
+R0121;T053;MB
+R0122;T054;Morris Garages
+R0123;T055;Mini Cooper
+R0124;T056;MITSUBISHI
+R0125;T057;NISSAN
+R0126;T058;OMODA
+R0127;T058;Omoda & Jaecoo
+R0128;T059;PEUGEOT
+R0129;T060;PORSCHE
+R0130;T060;PORSCHE (com espaço extra)
+R0131;T061;RAM
+R0132;T061;Dodge Ram
+R0133;T062;RENAULT
+R0134;T063;SUZUKI
+R0135;T064;TOYOTA
+R0136;T065;VW
+R0137;T065;Volks
+R0138;T066;VOLVO
+R0139;T066;VOLVO (com espaço extra)
+R0140;T067;ZEEKR
+R0141;T068;Sub Compacto
+R0142;T068;sub-compacto
+R0143;T068;minicarro
+R0144;T068;carro urbano pequeno
+R0145;T069;hatch compacto
+R0146;T069;carro compacto
+R0147;T070;carro médio
+R0148;T070;sedã compacto
+R0149;T071;sedã médio
+R0150;T071;carro grande
+R0151;T072;Extra Grande
+R0152;T072;extra-grande
+R0153;T072;sedã grande
+R0154;T073;SUV compacto
+R0155;T074;SUV grande
+R0156;T075;SUV compacto 4x4
+R0157;T075;SUV compacto com tração integral
+R0158;T076;SUV grande 4x4
+R0159;T076;SUV grande com tração integral
+R0160;T077;off-road compacto
+R0161;T078;off-road grande
+R0162;T079;picape média
+R0163;T079;picape grande
+R0164;T080;picape pequena
+R0165;T081;monovolume
+R0166;T081;MPV
+R0167;T081;van de passageiros
+R0168;T082;carro esportivo
+R0169;T082;superesportivo
+R0170;T082;cupê esportivo
+R0171;T083;Comercial
+R0172;T083;furgão
+R0173;T083;van de carga
+R0174;T083;utilitário de carga
+R0175;T084;motor a combustão
+R0176;T084;ICE
+R0177;T084;ICEV
+R0178;T084;carro convencional
+R0179;T084;carro a gasolina
+R0180;T084;carro flex
+R0181;T084;carro a diesel
+R0182;T085;VEH
+R0183;T085;HEV
+R0184;T085;híbrido convencional
+R0185;T085;híbrido autorrecarregável
+R0186;T085;híbrido pleno
+R0187;T085;full hybrid
+R0188;T085;híbrido leve
+R0189;T085;mild hybrid
+R0190;T085;MHEV
+R0191;T085;híbrido 48 V
+R0192;T086;VEHP
+R0193;T086;VHEP
+R0194;T086;PHEV
+R0195;T086;híbrido plug-in
+R0196;T086;híbrido recarregável
+R0197;T086;híbrido recarregável externamente
+R0198;T087;VEB
+R0199;T087;BEV
+R0200;T087;VE
+R0201;T087;carro elétrico
+R0202;T087;100% elétrico
+R0203;T087;elétrico puro
+R0204;T087;elétrico a bateria
+R0205;T088;direção elétrica
+R0206;T088;EPS
+R0207;T089;E-H
+R0208;T089;direção eletro-hidráulica
+R0209;T090;direção hidráulica
+R0210;T091;direção mecânica
+R0211;T092;eletricidade
+R0212;T092;energia elétrica
+R0213;T093;E100
+R0214;T093;etanol
+R0215;T093;etanol hidratado
+R0216;T093;EHR
+R0217;T093;AEHC
+R0218;T093;álcool
+R0219;T094;óleo diesel
+R0220;T095;flex fuel
+R0221;T095;bicombustível
+R0222;T095;total flex
+R0223;T096;gasolina C
+R0224;T096;E22
+R0225;T097;nota A
+R0226;T098;nota B
+R0227;T099;nota C
+R0228;T100;nota D
+R0229;T101;nota E
+R0230;T102;PBEV
+R0231;T102;PBE Veicular
+R0232;T102;PBE
+R0233;T102;etiquetagem veicular
+R0234;T103;ENCE
+R0235;T103;etiqueta do Inmetro
+R0236;T103;selo do Inmetro
+R0237;T104;área
+R0238;T104;pegada
+R0239;T104;footprint
+R0240;T105;Programa de Controle da Poluição do Ar por Veículos Automotores
+R0241;T105;controle de poluição veicular

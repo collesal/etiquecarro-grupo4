@@ -1,0 +1,38 @@
+{
+ "linhas_lidas": 968,
+ "colunas": 28,
+ "marcas_grafias_originais": 47,
+ "marcas_normalizadas": 42,
+ "modelos_autoridade": 308,
+ "correcoes_de_leiaute": {
+  "flex_6_valores": 36,
+  "gasolina_3_valores": 9,
+  "eletrico_coluna_vehp": 22,
+  "etanol_combinado": 8
+ },
+ "linhas_com_chave_composta_repetida": 56,
+ "transformacoes_registradas": 4728,
+ "propulsao": {
+  "Elétrico": 186,
+  "Combustão": 556,
+  "Híbrido": 114,
+  "Plug-in": 112
+ },
+ "combustivel": {
+  "Elétrico puro": 186,
+  "Flex": 310,
+  "Gasolina": 320,
+  "Etanol puro": 8,
+  "Diesel": 144
+ },
+ "transmissao": {
+  "Não se aplica": 13,
+  "Automática": 536,
+  "Manual": 144,
+  "Continuamente variável (CVT)": 127,
+  "Automática de dupla embreagem (DCT)": 106,
+  "Híbrida dedicada (DHT)": 18,
+  "Não informado": 23,
+  "Continuamente variável eletrônica (eCVT)": 1
+ }
+}

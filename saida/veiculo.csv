@@ -1,0 +1,969 @@
+id_veiculo;id_modelo;versao;motor;categoria;propulsao;combustivel;direcao;ar_cond;transmissao_tipo;marchas;linha_origem
+V0001;MOD0001;GS EV;Elétrico;Subcompacto;Elétrico;Elétrico puro;Elétrica;Sim;Não se aplica;;2
+V0002;MOD0001;GS 5 EV;Elétrico;Subcompacto;Elétrico;Elétrico puro;Elétrica;Sim;Não se aplica;;3
+V0003;MOD0001;GL 5 EV;Elétrico;Subcompacto;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;4
+V0004;MOD0002;ICON;ELÉTRICO;Subcompacto;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;5
+V0005;MOD0003;TREKKING;1.0-6V;Subcompacto;Combustão;Flex;Elétrica;Sim;Manual;5;6
+V0006;MOD0003;LIKE;1.0-6V;Subcompacto;Combustão;Flex;Elétrica;Sim;Manual;5;7
+V0007;MOD0004;e-JS1;Elétrico;Subcompacto;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;8
+V0008;MOD0004;e-JS1 EXT;Elétrico;Subcompacto;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;9
+V0009;MOD0005;INTENS;Elétrico;Subcompacto;Elétrico;Elétrico puro;Elétrica;Sim;Automática;;10
+V0010;MOD0006;1.0;1.0-6V;Compacto;Combustão;Flex;Elétrica;Sim;Manual;5;11
+V0011;MOD0006;DRIVE 1.0;1.0-6V;Compacto;Combustão;Flex;Elétrica;Sim;Manual;5;12
+V0012;MOD0006;DRIVE 1.3 AT;1.3-8V;Compacto;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);7;13
+V0013;MOD0007;Sense;1.0-12V;Compacto;Combustão;Flex;Elétrica;Sim;Manual;5;14
+V0014;MOD0007;Comfort;1.0-12V;Compacto;Combustão;Flex;Elétrica;Sim;Manual;5;15
+V0015;MOD0007;Limited;1.0-12V;Compacto;Combustão;Flex;Elétrica;Sim;Manual;5;16
+V0016;MOD0007;Limited;1.0-12VT;Compacto;Combustão;Flex;Elétrica;Sim;Automática;6;17
+V0017;MOD0007;Platinum;1.0-12VT;Compacto;Combustão;Flex;Elétrica;Sim;Automática;6;18
+V0018;MOD0008;E;Elétrico;Compacto;Elétrico;Elétrico puro;Elétrica;Sim;Automática;;19
+V0019;MOD0008;SE;Elétrico;Compacto;Elétrico;Elétrico puro;Elétrica;Sim;Automática;;20
+V0020;MOD0009;3P;2.0-16V;Compacto;Combustão;Gasolina;Elétrica;Sim;Automática;7;21
+V0021;MOD0008;S CABRIO;2.0-16V;Compacto;Combustão;Gasolina;Elétrica;Sim;Automática;7;22
+V0022;MOD0009;CABRIO;2.0-16V;Compacto;Combustão;Gasolina;Elétrica;Sim;Automática;7;23
+V0023;MOD0010;3P;Elétrico;Compacto;Elétrico;Elétrico puro;Elétrica;Sim;Automática;;24
+V0024;MOD0008;S 3P EXCLUSIVE;2.0-16V;Compacto;Combustão;Gasolina;Elétrica;Sim;Automática;7;25
+V0025;MOD0008;S 3P SPORT;2.0-16V;Compacto;Combustão;Gasolina;Elétrica;Sim;Automática;7;26
+V0026;MOD0008;S 3P TOP;2.0-16V;Compacto;Combustão;Gasolina;Elétrica;Sim;Automática;7;27
+V0027;MOD0011;ACTIVE MT;1.0-6V;Compacto;Combustão;Flex;Elétrica;Sim;Manual;5;28
+V0028;MOD0011;ACTIV T200;1.0T-12V;Compacto;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);7;29
+V0029;MOD0011;STYLE MT;1.0-6V;Compacto;Combustão;Flex;Elétrica;Sim;Manual;5;30
+V0030;MOD0011;ALLUR T200;1.0T-12V;Compacto;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);7;31
+V0031;MOD0011;GT T200;1.0T-12V;Compacto;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);7;32
+V0032;MOD0011;GT HYBRID;1.0T-12V;Compacto;Híbrido;Flex;Elétrica;Sim;Continuamente variável (CVT);7;33
+V0033;MOD0012;GT;ELÉTRICO;Compacto;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;34
+V0034;MOD0013;Peformance;2.0-16V;Médio;Combustão;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);7;35
+V0035;MOD0013;Performance Black;2.0-16V;Médio;Combustão;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);7;36
+V0036;MOD0014;xDrive;2.0-16V;Médio;Combustão;Gasolina;Elétrica;Sim;Automática;7;37
+V0037;MOD0015;GS 180EV;Elétrico;Médio;Elétrico;Elétrico puro;Elétrica;Sim;Não se aplica;;38
+V0038;MOD0015;PLUS 310EV;Elétrico;Médio;Elétrico;Elétrico puro;Elétrica;Sim;Não se aplica;;39
+V0039;MOD0015;SE 290EV;Elétrico;Médio;Elétrico;Elétrico puro;Elétrica;Sim;Não se aplica;;40
+V0040;MOD0016;GS 290EV;Elétrico;Médio;Elétrico;Elétrico puro;Elétrica;Sim;Não se aplica;;41
+V0041;MOD0017;LTZ;1.0T-12V;Médio;Combustão;Flex;Elétrica;Sim;Automática;6;42
+V0042;MOD0017;PREMIER;1.0T-12V;Médio;Combustão;Flex;Elétrica;Sim;Automática;6;43
+V0043;MOD0017;RS;1.0T-12V;Médio;Combustão;Flex;Elétrica;Sim;Automática;6;44
+V0044;MOD0017;MT;1.0T-12V;Médio;Combustão;Flex;Elétrica;Sim;Manual;6;45
+V0045;MOD0017;LT;1.0T-12V;Médio;Combustão;Flex;Elétrica;Sim;Automática;6;46
+V0046;MOD0017;MT;1.0-12 V;Médio;Combustão;Flex;Elétrica;Sim;Manual;6;47
+V0047;MOD0017;AT;1.0T-12V;Médio;Combustão;Flex;Elétrica;Sim;Automática;6;48
+V0048;MOD0017;10TAT HB ALC;1.0T-12V;Médio;Combustão;Etanol puro;Elétrica;Sim;Automática;6;49
+V0049;MOD0017;10TAT LT1 ALC;1.0T-12V;Médio;Combustão;Etanol puro;Elétrica;Sim;Automática;6;50
+V0050;MOD0017;10TAT LTZ ALC;1.0T-12V;Médio;Combustão;Etanol puro;Elétrica;Sim;Automática;6;51
+V0051;MOD0017;10TAT PR2 ALC;1.0T-12V;Médio;Combustão;Etanol puro;Elétrica;Sim;Automática;6;52
+V0052;MOD0018;LTZ;1.0T-12V;Médio;Combustão;Flex;Elétrica;Sim;Automática;6;53
+V0053;MOD0018;PREMIER;1.0T-12V;Médio;Combustão;Flex;Elétrica;Sim;Automática;6;54
+V0054;MOD0018;MT;1.0T-12V;Médio;Combustão;Flex;Elétrica;Sim;Manual;6;55
+V0055;MOD0018;LT;1.0T-12V;Médio;Combustão;Flex;Elétrica;Sim;Automática;6;56
+V0056;MOD0018;MT;1.0-12 V;Médio;Combustão;Flex;Elétrica;Sim;Manual;6;57
+V0057;MOD0018;AT;1.0T-12V;Médio;Combustão;Flex;Elétrica;Sim;Automática;6;58
+V0058;MOD0018;10TAT NB ALC;1.0T-12V;Médio;Combustão;Etanol puro;Elétrica;Sim;Automática;6;59
+V0059;MOD0018;10TAT LT1 ALC;1.0T-12V;Médio;Combustão;Etanol puro;Elétrica;Sim;Automática;6;60
+V0060;MOD0018;10TAT LTZ ALC;1.0T-12V;Médio;Combustão;Etanol puro;Elétrica;Sim;Automática;6;61
+V0061;MOD0018;10TAT PR2 ALC;1.0T-12V;Médio;Combustão;Etanol puro;Elétrica;Sim;Automática;6;62
+V0062;MOD0019;ACTIV;Elétrico;Médio;Elétrico;Elétrico puro;Elétrica;Sim;Automática;;63
+V0063;MOD0020;1.8L AT;1.8L-8V;Médio;Combustão;Flex;Elétrica;Sim;Automática;6;64
+V0064;MOD0020;1.8L MT LT;1.8L-8V;Médio;Combustão;Flex;Elétrica;Sim;Manual;6;65
+V0065;MOD0020;1.8L AT LTZ5;1.8L-8V;Médio;Combustão;Flex;Elétrica;Sim;Automática;6;66
+V0066;MOD0021;1.0;1.0-6V;Médio;Combustão;Flex;Elétrica;Sim;Manual;5;67
+V0067;MOD0021;DRIVE 1.0;1.0-6V;Médio;Combustão;Flex;Elétrica;Sim;Manual;5;68
+V0068;MOD0021;DRIVE1.3AT;1.3-8V;Médio;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);7;69
+V0069;MOD0021;PREC 1.3AT;1.3-8V;Médio;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);7;70
+V0070;MOD0021;DRIVE 1.3;1.3-8V;Médio;Combustão;Flex;Elétrica;Sim;Manual;5;71
+V0071;MOD0022;MAX;Elétrico;Médio;Elétrico;Elétrico puro;Elétrica;Sim;Automática;;72
+V0072;MOD0022;PRO;Elétrico;Médio;Elétrico;Elétrico puro;Elétrica;Sim;Automática;;73
+V0073;MOD0023;BEV58 C;Elétrico;Médio;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;74
+V0074;MOD0023;GT BEV63;Elétrico;Médio;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;75
+V0075;MOD0023;SKIN BEV48;Elétrico;Médio;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;76
+V0076;MOD0023;BEV58;Elétrico;Médio;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;77
+V0077;MOD0024;LX;1.5-16V;Médio;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);;78
+V0078;MOD0024;EX;1.5-16V;Médio;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);;79
+V0079;MOD0024;EXL;1.5-16V;Médio;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);;80
+V0080;MOD0024;TOURING;1.5-16V;Médio;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);;81
+V0081;MOD0025;LX;1.5-16V;Médio;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);;82
+V0082;MOD0025;EX;1.5-16V;Médio;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);;83
+V0083;MOD0025;EXL;1.5-16V;Médio;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);;84
+V0084;MOD0025;TOURING;1.5-16V;Médio;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);;85
+V0085;MOD0025;TOURING SPORT;1.5-16V;Médio;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);;86
+V0086;MOD0026;EX;1.5-16V;Médio;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);;87
+V0087;MOD0026;EXL;1.5-16V;Médio;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);;88
+V0088;MOD0026;ADVANCE;1.5T-16V;Médio;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);;89
+V0089;MOD0026;TOURING;1.5T-16V;Médio;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);;90
+V0090;MOD0027;ADVANCE;1.5T-16V;Médio;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);;91
+V0091;MOD0027;TOURING;1.5T-16V;Médio;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);;92
+V0092;MOD0028;Comfort;1.0-12V;Médio;Combustão;Flex;Elétrica;Sim;Manual;5;93
+V0093;MOD0028;Limited;1.0-12V;Médio;Combustão;Flex;Elétrica;Sim;Manual;5;94
+V0094;MOD0028;Limited;1.0-12VT;Médio;Combustão;Flex;Elétrica;Sim;Automática;6;95
+V0095;MOD0028;Platinum;1.0-12VT;Médio;Combustão;Flex;Elétrica;Sim;Automática;6;96
+V0096;MOD0029;Ultimate;1.6-16V HEV;Médio;Híbrido;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);6;97
+V0097;MOD0029;Signature;1.6-16V HEV;Médio;Híbrido;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);6;98
+V0098;MOD0030;Comfort;1.0-12V;Médio;Combustão;Flex;Elétrica;Sim;Manual;5;99
+V0099;MOD0030;Limited;1.0-12V;Médio;Combustão;Flex;Elétrica;Sim;Manual;5;100
+V0100;MOD0030;Sense;1.0-12V;Médio;Combustão;Flex;Elétrica;Sim;Manual;5;101
+V0101;MOD0030;Comfort;1.0-12V;Médio;Combustão;Flex;Elétrica;Sim;Manual;5;102
+V0102;MOD0030;Limited;1.0-12V;Médio;Combustão;Flex;Elétrica;Sim;Manual;5;103
+V0103;MOD0030;Sense;1.0-12V;Médio;Combustão;Flex;Elétrica;Sim;Manual;5;104
+V0104;MOD0030;Action;1.0-12VT;Médio;Combustão;Flex;Elétrica;Sim;Automática;6;105
+V0105;MOD0030;Comfort;1.0-12VT;Médio;Combustão;Flex;Elétrica;Sim;Automática;6;106
+V0106;MOD0030;Limited;1.0-12VT;Médio;Combustão;Flex;Elétrica;Sim;Automática;6;107
+V0107;MOD0030;Limited Plus;1.0-12VT;Médio;Combustão;Flex;Elétrica;Sim;Automática;6;108
+V0108;MOD0030;Platinum;1.0-12VT;Médio;Combustão;Flex;Elétrica;Sim;Automática;6;109
+V0109;MOD0030;Xline;1.0-12VT;Médio;Combustão;Flex;Elétrica;Sim;Automática;6;110
+V0110;MOD0030;Platinum Plus;1.0-12VT;Médio;Combustão;Flex;Elétrica;Sim;Automática;6;111
+V0111;MOD0030;Ultimate;1.0-12VT;Médio;Combustão;Flex;Elétrica;Sim;Automática;6;112
+V0112;MOD0031;e-JS4;Elétrico;Médio;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;113
+V0113;MOD0032;HEV 1.6 EX;1.6-16V;Médio;Híbrido;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);6;114
+V0114;MOD0032;HEV 1.6 LX;1.6-16V;Médio;Híbrido;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);6;115
+V0115;MOD0032;HEV 1.6 SX;1.6-16V;Médio;Híbrido;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);6;116
+V0116;MOD0032;HEV 1.6 SX RIOPEN;1.6-16V;Médio;Híbrido;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);6;117
+V0117;MOD0033;64 KWH COM;Elétrico;Médio;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;118
+V0118;MOD0033;64 KWH LUX;Elétrico;Médio;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;119
+V0119;MOD0033;64 KWH AWD;Elétrico;Médio;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;120
+V0120;MOD0008;S 5P EXCLUSIVE;2.0-16V;Médio;Combustão;Gasolina;Elétrica;Sim;Automática;7;121
+V0121;MOD0008;S 5P TOP;2.0-16V;Médio;Combustão;Gasolina;Elétrica;Sim;Automática;7;122
+V0122;MOD0034;E;Elétrico;Médio;Elétrico;Elétrico puro;Elétrica;Sim;Automática;;123
+V0123;MOD0034;SE;Elétrico;Médio;Elétrico;Elétrico puro;Elétrica;Sim;Automática;;124
+V0124;MOD0010;ACEMAN;Elétrico;Médio;Elétrico;Elétrico puro;Elétrica;Sim;Automática;;125
+V0125;MOD0035;SENSE CVT;1.6-16V;Médio;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);;126
+V0126;MOD0035;ADVNC CVT;1.6-16V;Médio;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);;127
+V0127;MOD0035;EXCL CVT;1.6-16V;Médio;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);;128
+V0128;MOD0035;SR CVT;1.6-16V;Médio;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);;129
+V0129;MOD0036;GT;ELÉTRICO;Médio;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;130
+V0130;MOD0037;E-TECH;Elétrico;Médio;Elétrico;Elétrico puro;Elétrica;Sim;Automática;;131
+V0131;MOD0038;4STY 2WD;Elétrico;Médio;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;132
+V0132;MOD0038;4STY 4WD;Elétrico;Médio;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;133
+V0133;MOD0039;8AT;1.6-12V;Médio;Combustão;Gasolina;Elétrica;Sim;Automática;8;134
+V0134;MOD0039;6MT;1.6-12V;Médio;Combustão;Gasolina;Elétrica;Sim;Manual;6;135
+V0135;MOD0040;E40 CORE;Elétrico;Médio;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;136
+V0136;MOD0040;E40 PLUS;Elétrico;Médio;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;137
+V0137;MOD0040;E60 ULTRA;Elétrico;Médio;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;138
+V0138;MOD0040;E60 PLUS;Elétrico;Médio;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;139
+V0139;MOD0040;E60 CORE;Elétrico;Médio;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;140
+V0140;MOD0040;TWIN ULTRA;Elétrico;Médio;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;141
+V0141;MOD0041;GOLF GTI;2.0-16V;Médio;Combustão;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);7;142
+V0142;MOD0042;COMFORTLINE 200TSI AUT;1.0-12V;Médio;Combustão;Flex;Elétrica;Sim;Automática;6;143
+V0143;MOD0042;HIGHLINE 200TSI AUT;1.0-12V;Médio;Combustão;Flex;Elétrica;Sim;Automática;6;144
+V0144;MOD0042;TSI AUTOMÁTICO;1.0-12V;Médio;Combustão;Flex;Elétrica;Sim;Automática;6;145
+V0145;MOD0042;TSI MECÂNICO;1.0-12V;Médio;Combustão;Flex;Elétrica;Sim;Manual;5;146
+V0146;MOD0042;SENSE TSI MECÂNICO;1.0-12V;Médio;Combustão;Flex;Elétrica;Sim;Manual;5;147
+V0147;MOD0042;EXCLUSIVE 250TSI AUT;1.4-16V;Médio;Combustão;Flex;Elétrica;Sim;Automática;6;148
+V0148;MOD0043;COMFORTLINE TSI AUT;1.0-12V;Médio;Combustão;Flex;Elétrica;Sim;Automática;6;149
+V0149;MOD0043;SENSE TSI AUTOMÁTICO;1.0-12V;Médio;Combustão;Flex;Elétrica;Sim;Automática;6;150
+V0150;MOD0043;HIGHLINE TSI AUTOMÁTICO;1.0-12V;Médio;Combustão;Flex;Elétrica;Sim;Automática;6;151
+V0151;MOD0043;MPI;1.0-12V;Médio;Combustão;Flex;Elétrica;Sim;Manual;5;152
+V0152;MOD0043;TRACK 1.0 MPI;1.0-12V;Médio;Combustão;Flex;Elétrica;Sim;Manual;5;153
+V0153;MOD0043;TRACK ROBUST 1.0 MPI;1.0-12V;Médio;Combustão;Flex;Elétrica;Sim;Manual;5;154
+V0154;MOD0044;MPI;1.0-12V;Médio;Combustão;Flex;Elétrica;Sim;Manual;5;155
+V0155;MOD0045;Advanced;2.0-16V;Grande;Combustão;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);7;156
+V0156;MOD0045;Performance;2.0-16V;Grande;Combustão;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);7;157
+V0157;MOD0045;Performance Black;2.0-16V;Grande;Combustão;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);7;158
+V0158;MOD0046;-;2.5-20V;Grande;Combustão;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);7;159
+V0159;MOD0046;Track;2.5-20V;Grande;Combustão;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);7;160
+V0160;MOD0047;Launch edition (ed.0);2.0-16V;Grande;Combustão;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);7;161
+V0161;MOD0047;Launch edition (ed.0);2.0-16V;Grande;Combustão;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);7;162
+V0162;MOD0048;Launch edition (ed.0);2.0-16V;Grande;Combustão;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);7;163
+V0163;MOD0048;Launch edition (ed.0);2.0-16V;Grande;Combustão;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);7;164
+V0164;MOD0047;Launch edition;2.0-16V;Grande;Combustão;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);7;165
+V0165;MOD0047;Launch edition;2.0-16V;Grande;Combustão;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);7;166
+V0166;MOD0048;Launch edition;2.0-16V;Grande;Combustão;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);7;167
+V0167;MOD0048;Launch edition;2.0-16V;Grande;Combustão;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);7;168
+V0168;MOD0049;xDrive30;Elétrico;Grande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;;169
+V0169;MOD0049;eDrive20;Elétrico;Grande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;;170
+V0170;MOD0050;xDrive30 MSP;Elétrico;Grande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;;171
+V0171;MOD0051;-;2.0-16V;Grande;Combustão;Gasolina;Elétrica;Sim;Automática;7;172
+V0172;MOD0051;MSP;2.0-16V;Grande;Combustão;Gasolina;Elétrica;Sim;Automática;7;173
+V0173;MOD0052;xDrive;2.0-16V;Grande;Combustão;Gasolina;Elétrica;Sim;Automática;7;174
+V0174;MOD0053;M35i;2.0-16V;Grande;Combustão;Gasolina;Elétrica;Sim;Automática;7;175
+V0175;MOD0054;GS DM FLEX;1.5-16V;Grande;Plug-in;Flex;Elétrica;Sim;Automática;1;176
+V0176;MOD0054;GL DM FLEX;1.5-16V;Grande;Plug-in;Flex;Elétrica;Sim;Automática;1;177
+V0177;MOD0055;GS 560EV;Elétrico;Grande;Elétrico;Elétrico puro;Elétrica;Sim;Não se aplica;;178
+V0178;MOD0056;PHEV;1.5T-16V;Grande;Plug-in;Gasolina;Elétrica;Sim;Híbrida dedicada (DHT);;179
+V0179;MOD0057;PREMIUM;Elétrico;Grande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;180
+V0180;MOD0057;ELITE;Elétrico;Grande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;181
+V0181;MOD0058;ELITE;Elétrico;Grande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;182
+V0182;MOD0058;PREMIUM;Elétrico;Grande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;183
+V0183;MOD0059;5;Elétrico;Grande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;184
+V0184;MOD0060;TOURING;2.0-16V;Grande;Híbrido;Gasolina;Elétrica;Sim;Continuamente variável (CVT);;185
+V0185;MOD0061;TOURING;2.0-16V;Grande;Combustão;Gasolina;Elétrica;Sim;Continuamente variável (CVT);;186
+V0186;MOD0062;PRESTIGE;1.5-16V;Grande;Plug-in;Gasolina;Elétrica;Sim;Automática;1;187
+V0187;MOD0062;LUXURY;1.5-16V;Grande;Plug-in;Gasolina;Elétrica;Sim;Automática;1;188
+V0188;MOD0063;UX 300H;2.0-16V;Grande;Híbrido;Gasolina;Elétrica;Sim;Continuamente variável (CVT);;189
+V0189;MOD0064;;2.0-16V;Grande;Combustão;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);8;190
+V0190;MOD0065;AMG LINE;1.3-16V;Grande;Híbrido;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);7;191
+V0191;MOD0065;PROGRESSIVE;1.3-16V;Grande;Híbrido;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);7;192
+V0192;MOD0066;;2.0-16V;Grande;Híbrido;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);8;193
+V0193;MOD0067;EV 62KWH LUX;Elétrico;Grande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;194
+V0194;MOD0067;EV 62KWH COM;Elétrico;Grande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;195
+V0195;MOD0033;URB EV54KWH COM;Elétrico;Grande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;196
+V0196;MOD0033;URB EV54KWH LUX;Elétrico;Grande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;197
+V0197;MOD0033;URB EV43KWH COM;Elétrico;Grande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;198
+V0198;MOD0033;URB EV43KWH LUX;Elétrico;Grande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;199
+V0199;MOD0068;SE EXCLUSIVE;Elétrico;Grande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;;200
+V0200;MOD0068;SE TOP;Elétrico;Grande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;;201
+V0201;MOD0009;COUNTRYMAN;2.0-16V;Grande;Combustão;Gasolina;Elétrica;Sim;Automática;7;202
+V0202;MOD0009;COUNTRYMAN EX;2.0-16V;Grande;Combustão;Gasolina;Elétrica;Sim;Automática;7;203
+V0203;MOD0069;SEN CVT;2.0-16V;Grande;Combustão;Gasolina;Elétrica;Sim;Continuamente variável (CVT);;204
+V0204;MOD0069;ADV CVT;2.0-16V;Grande;Combustão;Gasolina;Elétrica;Sim;Continuamente variável (CVT);;205
+V0205;MOD0069;EXC CVT;2.0-16V;Grande;Combustão;Gasolina;Elétrica;Sim;Continuamente variável (CVT);;206
+V0206;MOD0070;--;Elétrico;Grande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;207
+V0207;MOD0071;HEV COMFORT;1.5-16V;Grande;Híbrido;Gasolina;Elétrica;Sim;Automática;1;208
+V0208;MOD0071;HEV LUXURY;1.5-16V;Grande;Híbrido;Gasolina;Elétrica;Sim;Automática;1;209
+V0209;MOD0071;HEV PRESTIGE;1.5-16V;Grande;Híbrido;Gasolina;Elétrica;Sim;Automática;1;210
+V0210;MOD0072;ALTIS HV;1.8 16V;Grande;Híbrido;Flex;Elétrica;Sim;Continuamente variável (CVT);;211
+V0211;MOD0072;APREMIUMH;1.8 16V;Grande;Híbrido;Flex;Elétrica;Sim;Continuamente variável (CVT);;212
+V0212;MOD0072;GLI HEV;1.8 16V;Grande;Híbrido;Flex;Elétrica;Sim;Continuamente variável (CVT);;213
+V0213;MOD0072;COROLLA ALTIS 20;2.0-16V;Grande;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);;214
+V0214;MOD0072;COROLLA GLI 20;2.0-16V;Grande;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);;215
+V0215;MOD0072;COROLLA GRS;2.0-16V;Grande;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);;216
+V0216;MOD0072;COROLLA XEI 20;2.0-16V;Grande;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);;217
+V0217;MOD0072;COROLLA GLI;2.0-16V;Grande;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);;218
+V0218;MOD0073;GR R;1.6-12V;Grande;Combustão;Gasolina;Elétrica;Sim;Manual;6;219
+V0219;MOD0074;XRV HYBRID;1.8-16V;Grande;Híbrido;Flex;Elétrica;Sim;Continuamente variável (CVT);;220
+V0220;MOD0074;XRX HYBRID;1.8-16V;Grande;Híbrido;Flex;Elétrica;Sim;Continuamente variável (CVT);;221
+V0221;MOD0074;XR 20;2.0-16V;Grande;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);;222
+V0222;MOD0074;XRE 20;2.0-16V;Grande;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);;223
+V0223;MOD0074;XRX 20;2.0-16V;Grande;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);;224
+V0224;MOD0074;GRS;2.0-16V;Grande;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);;225
+V0225;MOD0075;6 CORE;Elétrico;Grande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;226
+V0226;MOD0075;6 PLUS;Elétrico;Grande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;227
+V0227;MOD0075;6 ULTRA;Elétrico;Grande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;228
+V0228;MOD0075;8 CORE;Elétrico;Grande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;229
+V0229;MOD0075;8 PLUS;Elétrico;Grande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;230
+V0230;MOD0075;8 ULTRA;Elétrico;Grande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;231
+V0231;MOD0075;PERF BLACK;Elétrico;Grande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;232
+V0232;MOD0075;PERF ULTRA;Elétrico;Grande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;233
+V0233;MOD0076;Performance S Edition;2.0-16V;Extragrande;Combustão;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);7;234
+V0234;MOD0077;S line;2.0-16V;Extragrande;Combustão;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);7;235
+V0235;MOD0078;S line (ed.0);2.0-16V;Extragrande;Combustão;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);7;236
+V0236;MOD0078;S line;2.0-16V;Extragrande;Combustão;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);7;237
+V0237;MOD0079;Performance;4.0-32V;Extragrande;Híbrido;Gasolina;Elétrica;Sim;Automática;8;238
+V0238;MOD0080;S line;Elétrico;Extragrande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;239
+V0239;MOD0081;Performance black;Elétrico;Extragrande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;240
+V0240;MOD0082;Advanced;2.0-16V;Extragrande;Combustão;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);7;241
+V0241;MOD0082;S line;2.0-16V;Extragrande;Combustão;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);7;242
+V0242;MOD0083;Advanced;2.0-16V;Extragrande;Combustão;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);7;243
+V0243;MOD0083;S line;2.0-16V;Extragrande;Combustão;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);7;244
+V0244;MOD0084;-;3.0-24V;Extragrande;Combustão;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);7;245
+V0245;MOD0085;-;3.0-24V;Extragrande;Combustão;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);7;246
+V0246;MOD0086;Performance;Elétrico;Extragrande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;247
+V0247;MOD0086;Performance black;Elétrico;Extragrande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;248
+V0248;MOD0087;Performance;Elétrico;Extragrande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;249
+V0249;MOD0088;Performance black;Elétrico;Extragrande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;250
+V0250;MOD0089;-;Elétrico;Extragrande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;251
+V0251;MOD0090;S Line;3.0-24V;Extragrande;Híbrido;Gasolina;Elétrica;Sim;Automática;8;252
+V0252;MOD0091;Performance Black;3.0-24V;Extragrande;Híbrido;Gasolina;Elétrica;Sim;Automática;8;253
+V0253;MOD0092;Performance;4.0-32V;Extragrande;Combustão;Gasolina;Elétrica;Sim;Automática;8;254
+V0254;MOD0086;Dynamic;Elétrico;Extragrande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;255
+V0255;MOD0086;S line;Elétrico;Extragrande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;256
+V0256;MOD0088;S line;Elétrico;Extragrande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;257
+V0257;MOD0089;-;Elétrico;Extragrande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;258
+V0258;MOD0081;S line;Elétrico;Extragrande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;259
+V0259;MOD0093;Performance;Elétrico;Extragrande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;260
+V0260;MOD0094;Cabrio;2.0-16V;Extragrande;Combustão;Gasolina;Elétrica;Sim;Automática;8;261
+V0261;MOD0095;M SPORT;2.0-16V;Extragrande;Plug-in;Gasolina;Elétrica;Sim;Automática;8;262
+V0262;MOD0096;M Sport Flex;2.0-16V;Extragrande;Combustão;Flex;Elétrica;Sim;Automática;8;263
+V0263;MOD0096;Sport GP Flex;2.0-16V;Extragrande;Combustão;Flex;Elétrica;Sim;Automática;8;264
+V0264;MOD0096;GP Flex;2.0-16V;Extragrande;Combustão;Flex;Elétrica;Sim;Automática;8;265
+V0265;MOD0096;Active Flex;2.0-16V;Extragrande;Combustão;Flex;Elétrica;Sim;Automática;8;266
+V0266;MOD0097;-;2.0-16V;Extragrande;Plug-in;Gasolina;Elétrica;Sim;Automática;8;267
+V0267;MOD0098;xDrive60;Elétrico;Extragrande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;;268
+V0268;MOD0099;M60;Elétrico;Extragrande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;;269
+V0269;MOD0100;xDrive 50;Elétrico;Extragrande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;;270
+V0270;MOD0101;50 XDRIVE MSP;Elétrico;Extragrande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;;271
+V0271;MOD0102;GS DM;1.5-16V;Extragrande;Plug-in;Gasolina;Elétrica;Sim;Automática;1;272
+V0272;MOD0103;AWD GS 680EV;Elétrico;Extragrande;Elétrico;Elétrico puro;Elétrica;Sim;Não se aplica;;273
+V0273;MOD0104;AWD GS 590EV;Elétrico;Extragrande;Elétrico;Elétrico puro;Elétrica;Sim;Não se aplica;;274
+V0274;MOD0105;AWD GS 700EV;Elétrico;Extragrande;Elétrico;Elétrico puro;Elétrica;Sim;Não se aplica;;275
+V0275;MOD0106;GS DM;1.5-16V;Extragrande;Plug-in;Gasolina;Elétrica;Sim;Automática;1;276
+V0276;MOD0106;PREM DM;1.5-16V;Extragrande;Plug-in;Gasolina;Elétrica;Sim;Automática;1;277
+V0277;MOD0106;PREM DM (MY27);1.5-16V;Extragrande;Plug-in;Gasolina;Elétrica;Sim;Automática;1;278
+V0278;MOD0107;GS DM;1.5-16V;Extragrande;Plug-in;Gasolina;Elétrica;Sim;Automática;1;279
+V0279;MOD0107;GL DM;1.5-16V;Extragrande;Plug-in;Gasolina;Elétrica;Sim;Automática;1;280
+V0280;MOD0107;GL DM FLEX;1.5-16V;Extragrande;Plug-in;Flex;Elétrica;Sim;Automática;1;281
+V0281;MOD0107;GS DM FLEX;1.5-16V;Extragrande;Plug-in;Flex;Elétrica;Sim;Automática;1;282
+V0282;MOD0108;GL DM;1.5-16V;Extragrande;Plug-in;Gasolina;Elétrica;Sim;Automática;1;283
+V0283;MOD0108;GS DM;1.5-16V;Extragrande;Plug-in;Gasolina;Elétrica;Sim;Automática;1;284
+V0284;MOD0109;GS 690EV;Elétrico;Extragrande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;285
+V0285;MOD0110;EV;Elétrico;Extragrande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;;286
+V0286;MOD0111;RS;Elétrico;Extragrande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;;287
+V0287;MOD0112;ACTIV;1.5T-16V;Extragrande;Combustão;Gasolina;Elétrica;Sim;Automática;8;288
+V0288;MOD0112;RS;1.5T-16V;Extragrande;Combustão;Gasolina;Elétrica;Sim;Automática;8;289
+V0289;MOD0113;-;Elétrico;Extragrande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;;290
+V0290;MOD0114;PR;Elétrico;Extragrande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;;291
+V0291;MOD0115;Titanium;1.5-16V;Extragrande;Combustão;Gasolina;Elétrica;Sim;Automática;7;292
+V0292;MOD0116;PLUS;Elétrico;Extragrande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;293
+V0293;MOD0117;ELITE;Elétrico;Extragrande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;294
+V0294;MOD0117;ULTRA;Elétrico;Extragrande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;295
+V0295;MOD0118;ELITE;Elétrico;Extragrande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;296
+V0296;MOD0118;PREMIUM;Elétrico;Extragrande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;297
+V0297;MOD0119;MAX;Elétrico;Extragrande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;;298
+V0298;MOD0119;PRO;Elétrico;Extragrande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;;299
+V0299;MOD0120;MAX / PRO;1.5-16V;Extragrande;Plug-in;Gasolina;Elétrica;Sim;Automática;;300
+V0300;MOD0120;ULTRA;1.5-16V;Extragrande;Plug-in;Gasolina;Elétrica;Sim;Automática;;301
+V0301;MOD0121;TOURING;2.0-16V;Extragrande;Híbrido;Gasolina;Elétrica;Sim;Continuamente variável (CVT);;302
+V0302;MOD0122;TOP;2.0-16V;Extragrande;Híbrido;Gasolina;Elétrica;Sim;Continuamente variável (CVT);;303
+V0303;MOD0122;SP;2.0-16V;Extragrande;Híbrido;Gasolina;Elétrica;Sim;Continuamente variável (CVT);;304
+V0304;MOD0123;Platinum;Elétrico;Extragrande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;305
+V0305;MOD0123;Ultimate;Elétrico;Extragrande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;306
+V0306;MOD0123;Signature;Elétrico;Extragrande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;307
+V0307;MOD0124;e-J7;Elétrico;Extragrande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;308
+V0308;MOD0125;ADVANCE;1.5-16V;Extragrande;Plug-in;Gasolina;Elétrica;Sim;Automática;1;309
+V0309;MOD0125;PREMIUM;1.5-16V;Extragrande;Plug-in;Gasolina;Elétrica;Sim;Automática;1;310
+V0310;MOD0126;AIR 2WD;ELÉTRICO;Extragrande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;311
+V0311;MOD0126;LAND 2WD;ELÉTRICO;Extragrande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;312
+V0312;MOD0127;REEV;1.5L-16V/ Eletrico;Extragrande;Plug-in;Gasolina;Elétrica;Sim;Automática;1;313
+V0313;MOD0127;Design;ELÉTRICO;Extragrande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;314
+V0314;MOD0128;LIFE;ELÉTRICO;Extragrande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;315
+V0315;MOD0129;DYNAMIC;2.5-16V;Extragrande;Híbrido;Gasolina;Elétrica;Sim;Continuamente variável (CVT);;316
+V0316;MOD0129;F-SPORT;2.5-16V;Extragrande;Híbrido;Gasolina;Elétrica;Sim;Continuamente variável (CVT);;317
+V0317;MOD0129;LUXURY;2.5-16V;Extragrande;Híbrido;Gasolina;Elétrica;Sim;Continuamente variável (CVT);;318
+V0318;MOD0130;NX450H PLUG-IN;2.5-16V;Extragrande;Plug-in;Gasolina;Elétrica;Sim;Continuamente variável (CVT);;319
+V0319;MOD0131;F-SPORT;2.4-16V;Extragrande;Híbrido;Gasolina;Elétrica;Sim;Automática;6;320
+V0320;MOD0132;I/LEXUS RX450H PLUG-IN;2.5-16V;Extragrande;Plug-in;Gasolina;Elétrica;Sim;Continuamente variável (CVT);;321
+V0321;MOD0133;500e;Elétrico;Extragrande;Elétrico;Elétrico puro;Elétrica;Sim;Continuamente variável (CVT);;322
+V0322;MOD0134;AMG LINE;1.3-16V;Extragrande;Híbrido;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);7;323
+V0323;MOD0134;PROGRESSIVE;1.3-16V;Extragrande;Híbrido;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);7;324
+V0324;MOD0135;;2.0-16V;Extragrande;Híbrido;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);8;325
+V0325;MOD0136;;2.0-16V;Extragrande;Combustão;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);8;326
+V0326;MOD0137;AMG LINE;1.5-16V;Extragrande;Híbrido;Gasolina;Elétrica;Sim;Automática;9;327
+V0327;MOD0138;AMG LINE;2.0-16V;Extragrande;Híbrido;Gasolina;Elétrica;Sim;Automática;9;328
+V0328;MOD0139;F1;2.0-16V;Extragrande;Plug-in;Gasolina;Elétrica;Sim;Automática;9;329
+V0329;MOD0139;;2.0-16V;Extragrande;Plug-in;Gasolina;Elétrica;Sim;Automática;9;330
+V0330;MOD0140;EXCLUSIVE;2.0-16V;Extragrande;Híbrido;Gasolina;Elétrica;Sim;Automática;9;331
+V0331;MOD0141;;4.0-32V;Extragrande;Plug-in;Gasolina;Elétrica;Sim;Automática;9;332
+V0332;MOD0142;AMG LINE;2.0-16V;Extragrande;Híbrido;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);8;333
+V0333;MOD0142;PROGRESSIVE;2.0-16V;Extragrande;Híbrido;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);8;334
+V0334;MOD0143;;2.0-16V;Extragrande;Híbrido;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);8;335
+V0335;MOD0144;CO;2.0-16V;Extragrande;Híbrido;Gasolina;Elétrica;Sim;Automática;9;336
+V0336;MOD0145;;2.0-16V;Extragrande;Plug-in;Gasolina;Elétrica;Sim;Automática;9;337
+V0337;MOD0146;;3.0-24V;Extragrande;Híbrido;Gasolina;Elétrica;Sim;Automática;9;338
+V0338;MOD0147;Coupé;4.0-32V;Extragrande;Híbrido;Gasolina;Elétrica;Sim;Automática;9;339
+V0339;MOD0148;AMG L;3.0-24V;Extragrande;Híbrido;Gasolina;Elétrica;Sim;Automática;9;340
+V0340;MOD0149;;Elétrico;Extragrande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;341
+V0341;MOD0144;;2.0-16V;Extragrande;Híbrido;Gasolina;Elétrica;Sim;Automática;9;342
+V0342;MOD0144;;2.0-16V;Extragrande;Híbrido;Gasolina;Elétrica;Sim;Automática;9;343
+V0343;MOD0140;EXCLUSIVE;2.0-16V;Extragrande;Híbrido;Gasolina;Elétrica;Sim;Automática;9;344
+V0344;MOD0150;EV AMGL;Elétrico;Extragrande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;345
+V0345;MOD0151;HPE-S E;2.4-16V;Extragrande;Plug-in;Gasolina;Elétrica;Sim;Automática;;346
+V0346;MOD0151;SIGNATURE E;2.4-16V;Extragrande;Plug-in;Gasolina;Elétrica;Sim;Automática;;347
+V0347;MOD0152;PHEV LUXURY;1.5-16V;Extragrande;Plug-in;Gasolina;Elétrica;Sim;Automática;1;348
+V0348;MOD0152;PHEV PRESTIGE;1.5-16V;Extragrande;Plug-in;Gasolina;Elétrica;Sim;Automática;1;349
+V0349;MOD0153;S;2.9-24V;Extragrande;Combustão;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);7;350
+V0350;MOD0153;E4;Elétrico;Extragrande;Elétrico;Elétrico puro;Elétrica;Sim;Não informado;;351
+V0351;MOD0153;ETURBO;Elétrico;Extragrande;Elétrico;Elétrico puro;Elétrica;Sim;Não informado;;352
+V0352;MOD0153;E4S;Elétrico;Extragrande;Elétrico;Elétrico puro;Elétrica;Sim;Não informado;;353
+V0353;MOD0153;GTS (MY 2026);2.9-24V;Extragrande;Combustão;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);7;354
+V0354;MOD0153;;2.0-16V;Extragrande;Combustão;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);7;355
+V0355;MOD0153;T;2.0-16V;Extragrande;Combustão;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);7;356
+V0356;MOD0153;EGTS;Elétrico;Extragrande;Elétrico;Elétrico puro;Elétrica;Sim;Não informado;;357
+V0357;MOD0154;E;Elétrico;Extragrande;Elétrico;Elétrico puro;Elétrica;Sim;Não informado;;358
+V0358;MOD0154;E OF;Elétrico;Extragrande;Elétrico;Elétrico puro;Elétrica;Sim;Não informado;;359
+V0359;MOD0154;E C;Elétrico;Extragrande;Elétrico;Elétrico puro;Elétrica;Sim;Não informado;;360
+V0360;MOD0154;E CO;Elétrico;Extragrande;Elétrico;Elétrico puro;Elétrica;Sim;Não informado;;361
+V0361;MOD0155;E-TECH;1.5T 16V;Extragrande;Híbrido;Gasolina;Elétrica;Sim;Automática;4;362
+V0362;MOD0156;SX CONNECT;2.5-16V;Extragrande;Híbrido;Gasolina;Elétrica;Sim;Continuamente variável (CVT);;363
+V0363;MOD0156;S CONNECT;2.5-16V;Extragrande;Híbrido;Gasolina;Elétrica;Sim;Continuamente variável (CVT);;364
+V0364;MOD0156;SX HYBRID;2.5-16V;Extragrande;Combustão;Gasolina;Elétrica;Sim;Continuamente variável (CVT);;365
+V0365;MOD0157;TWIN PE ULT;Elétrico;Extragrande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;366
+V0366;MOD0156;S HYBRID;2.5-16V;Extragrande;Combustão;Gasolina;Elétrica;Sim;Continuamente variável (CVT);;367
+V0367;MOD0158;GLI;2.0-16V;Extragrande;Combustão;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);7;368
+V0368;MOD0159;Flagship;Elétrico;Extragrande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;;369
+V0369;MOD0159;Premium;Elétrico;Extragrande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;;370
+V0370;MOD0160;Flagship AWD;Elétrico;Extragrande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;;371
+V0371;MOD0160;Premium RWD;Elétrico;Extragrande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;;372
+V0372;MOD0161;PRO HA;1.5T-16V;Utilitário esportivo compacto;Híbrido;Flex;Elétrica;Sim;Continuamente variável (CVT);;373
+V0373;MOD0161;PRO;1.5T-16V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);;374
+V0374;MOD0161;SPORT;1.5T-16V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);;375
+V0375;MOD0162;LT;1.0T-12V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Automática;6;376
+V0376;MOD0162;LTZ;1.0T-12V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Automática;6;377
+V0377;MOD0162;AT;1.0T-12V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Automática;6;378
+V0378;MOD0162;LT;1.0T-12V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Automática;6;379
+V0379;MOD0162;LTZ;1.0T-12V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Automática;6;380
+V0380;MOD0162;RS;1.2T-12V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Automática;6;381
+V0381;MOD0162;PREMIER;1.2T-12V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Automática;6;382
+V0382;MOD0162;PREMIER;1.2T-12V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Automática;6;383
+V0383;MOD0163;10T AT PR;1.0T-12V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Automática;6;384
+V0384;MOD0163;10T AT RS;1.0T-12V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Automática;6;385
+V0385;MOD0164;FEEL 1.0;1.0-6V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Manual;5;386
+V0386;MOD0164;LIVE 1.0;1.0-6V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Manual;5;387
+V0387;MOD0164;SHINE T200;1.0T-12V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);7;388
+V0388;MOD0164;FL PKT200;1.0T-12V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);7;389
+V0389;MOD0164;T200 DARK;1.0T-12V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);7;390
+V0390;MOD0165;FEEL 1.0;1.0-6V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Manual;5;391
+V0391;MOD0165;FEEL PLUS 1.0;1.0-6V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Manual;5;392
+V0392;MOD0165;LIVE 1.0;1.0-6V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Manual;5;393
+V0393;MOD0165;LIVE GO 1.0;1.0-6V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Manual;5;394
+V0394;MOD0165;LIVE PK 1.0;1.0-6V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Manual;5;395
+V0395;MOD0165;LIVE PLUS 1.0;1.0-6V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Manual;5;396
+V0396;MOD0165;XTR 1.0;1.0-6V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Manual;5;397
+V0397;MOD0165;YOU 1.0T CVT;1.0T-12V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);7;398
+V0398;MOD0166;XTR 7;1.0T-12V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);7;399
+V0399;MOD0166;XTR;1.0T-12V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);7;400
+V0400;MOD0166;FL;1.0T-12V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);7;401
+V0401;MOD0166;7 FL;1.0T-12V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);7;402
+V0402;MOD0166;FL PK;1.0T-12V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);7;403
+V0403;MOD0166;7 FL PK;1.0T-12V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);7;404
+V0404;MOD0166;SH;1.0T-12V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);7;405
+V0405;MOD0166;7 SH;1.0T-12V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);7;406
+V0406;MOD0006;TREKKING 1.3;1.3-8V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Manual;5;407
+V0407;MOD0006;ENDUR 1.3 MT;1.3-8V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Manual;5;408
+V0408;MOD0006;TREKKING 1.3AT;1.3-8V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);7;409
+V0409;MOD0167;TURBO 200;1.0T-12V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);7;410
+V0410;MOD0167;AUDACE HYB;1.0T-12V;Utilitário esportivo compacto;Híbrido;Flex;Elétrica;Sim;Continuamente variável (CVT);7;411
+V0411;MOD0167;IMPETUS HY;1.0T-12V;Utilitário esportivo compacto;Híbrido;Flex;Elétrica;Sim;Continuamente variável (CVT);7;412
+V0412;MOD0167;ABARTH 270;1.3T-16V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Automática;6;413
+V0413;MOD0167;LIMITED ED;1.3T-16V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Automática;6;414
+V0414;MOD0168;DRIVE MT;1.3-8V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Manual;5;415
+V0415;MOD0168;DRIVE AT;1.3-8V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);7;416
+V0416;MOD0168;AUDACE HYB;1.0T-12V;Utilitário esportivo compacto;Híbrido;Flex;Elétrica;Sim;Continuamente variável (CVT);7;417
+V0417;MOD0168;DRIVE TF 200;1.0T-12V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);7;418
+V0418;MOD0168;IMPETUS HYB;1.0T-12V;Utilitário esportivo compacto;Híbrido;Flex;Elétrica;Sim;Continuamente variável (CVT);7;419
+V0419;MOD0168;ABARTH 270;1.3T-16V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Automática;6;420
+V0420;MOD0169;EX;1.5-16V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);;421
+V0421;MOD0169;EXL;1.5-16V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);;422
+V0422;MOD0170;Comfort;1.0-12VT;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Automática;6;423
+V0423;MOD0170;Comfort Safety;1.0-12VT;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Automática;6;424
+V0424;MOD0170;Limited;1.0-12VT;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Automática;6;425
+V0425;MOD0170;Platinum;1.0-12VT;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Automática;6;426
+V0426;MOD0170;N Line;1.0-12VT;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Automática;6;427
+V0427;MOD0170;Ultimate;1.6-16VT;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Automática de dupla embreagem (DCT);7;428
+V0428;MOD0170;N-line;1.6-16VT;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Automática de dupla embreagem (DCT);7;429
+V0429;MOD0171;LIMITED HYB;1.0T-12V;Utilitário esportivo compacto;Híbrido;Flex;Elétrica;Sim;Continuamente variável (CVT);7;430
+V0430;MOD0171;ALTIT HYB;1.0T-12V;Utilitário esportivo compacto;Híbrido;Flex;Elétrica;Sim;Continuamente variável (CVT);7;431
+V0431;MOD0171;LONGT HYB;1.0T-12V;Utilitário esportivo compacto;Híbrido;Flex;Elétrica;Sim;Continuamente variável (CVT);7;432
+V0432;MOD0172;ALTIT HYB;1.3T-16V;Utilitário esportivo compacto;Híbrido;Flex;Elétrica;Sim;Automática;6;433
+V0433;MOD0172;ALTIT T270;1.3T-16V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Automática;6;434
+V0434;MOD0172;ALTIT T270 (MY27);1.3T-16V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Automática;6;435
+V0435;MOD0172;LGTD T270;1.3T-16V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Automática;6;436
+V0436;MOD0172;LONGIT HYB;1.3T-16V;Utilitário esportivo compacto;Híbrido;Flex;Elétrica;Sim;Automática;6;437
+V0437;MOD0172;SAHARA;1.3T-16V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Automática;6;438
+V0438;MOD0172;SAHARA HYB;1.3T-16V;Utilitário esportivo compacto;Híbrido;Flex;Elétrica;Sim;Automática;6;439
+V0439;MOD0172;SPORT FLEX (MY27);1.3T-16V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Automática;6;440
+V0440;MOD0172;SPORT T270 (MY27);1.3T-16V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Automática;6;441
+V0441;MOD0172;SPT T FLEX;1.3T-16V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Automática;6;442
+V0442;MOD0172;SPT TURBO;1.3T-16V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Automática;6;443
+V0443;MOD0173;SENSE AT;1.0 12V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Automática de dupla embreagem (DCT);;444
+V0444;MOD0173;ADVANCE AT;1.0 12V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Automática de dupla embreagem (DCT);;445
+V0445;MOD0173;EXCLUSIV AT;1.0 12V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Automática de dupla embreagem (DCT);;446
+V0446;MOD0173;PLATINUM AT;1.0 12V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Automática de dupla embreagem (DCT);;447
+V0447;MOD0174;SENSE;1.6-16V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);;448
+V0448;MOD0174;ADVANCE;1.6-16V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);;449
+V0449;MOD0174;EXCLUSIVE;1.6-16V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);;450
+V0450;MOD0174;SENSE B CVT;1.6-16V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);;451
+V0451;MOD0174;ACTIVE CVT;1.6-16V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);;452
+V0452;MOD0174;ADV B CVT;1.6-16V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);;453
+V0453;MOD0175;ACT T200;1.0T-12V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);7;454
+V0454;MOD0175;ALLU T200;1.0T-12V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);7;455
+V0455;MOD0175;GT T200;1.0T-12V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);7;456
+V0456;MOD0175;GT HYBRID;1.0T-12V;Utilitário esportivo compacto;Híbrido;Flex;Elétrica;Sim;Continuamente variável (CVT);7;457
+V0457;MOD0176;ZEN 2;1.0-12V;Utilitário esportivo compacto;Combustão;Flex;Eletro-hidráulica;Sim;Manual;5;458
+V0458;MOD0176;INTENSE 2;1.0-12V;Utilitário esportivo compacto;Combustão;Flex;Eletro-hidráulica;Sim;Manual;5;459
+V0459;MOD0176;OUTSIDER 2;1.0-12V;Utilitário esportivo compacto;Combustão;Flex;Eletro-hidráulica;Sim;Manual;5;460
+V0460;MOD0176;INTENSE BITON;1.0-12V;Utilitário esportivo compacto;Combustão;Flex;Eletro-hidráulica;Sim;Manual;5;461
+V0461;MOD0176;ICONIC 2;1.0-12V;Utilitário esportivo compacto;Combustão;Flex;Eletro-hidráulica;Sim;Manual;5;462
+V0462;MOD0176;LIFE 2;1.0-12V;Utilitário esportivo compacto;Combustão;Flex;Eletro-hidráulica;Sim;Manual;5;463
+V0463;MOD0177;TECH AT;1.0 12V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Automática de dupla embreagem (DCT);6;464
+V0464;MOD0177;ICO AT;1.0 12V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Automática de dupla embreagem (DCT);6;465
+V0465;MOD0177;10T AT;1.0 12V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Automática de dupla embreagem (DCT);6;466
+V0466;MOD0177;EVO AT;1.0 12V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Manual;6;467
+V0467;MOD0177;EVO MT;1.0 12V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Manual;6;468
+V0468;MOD0178;XR FLEX;1.5-16V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);;469
+V0469;MOD0178;XRE FLEX;1.5-16V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);;470
+V0470;MOD0178;XRX FLEX;1.5-16V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);;471
+V0471;MOD0179;XRX-HYBRID;1.5-16V;Utilitário esportivo compacto;Híbrido;Flex;Elétrica;Sim;Continuamente variável (CVT);;472
+V0472;MOD0179;XRE-HYBRID;1.5-16V;Utilitário esportivo compacto;Híbrido;Flex;Elétrica;Sim;Continuamente variável (CVT);;473
+V0473;MOD0180;HIGHLINE 250TSI AUTOMÁTICO;1.4-16V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Automática;6;474
+V0474;MOD0180;COMFORTLINE 200TSI AUTOMATICO;1.0-12V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Automática;6;475
+V0475;MOD0180;COMFORTLINE 200TSI AUTOMATICO;1.0-12V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Automática;8;476
+V0476;MOD0180;200TSI AUTOMATICO;1.0-12V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Automática;6;477
+V0477;MOD0180;200TSI AUTOMATICO;1.0-12V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Automática;8;478
+V0478;MOD0180;SENSE 200TSI AUTOMATICO;1.0-12V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Automática;6;479
+V0479;MOD0180;SENSE 200TSI AUTOMATICO;1.0-12V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Automática;8;480
+V0480;MOD0181;HIGHLINE 200TSI AUTOMÁTICO;1.0-12V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Automática;6;481
+V0481;MOD0181;COMFORTLINE 200TSI AUTOMÁTICO;1.0-12V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Automática;6;482
+V0482;MOD0180;EXTREME 250TSI AUTOMÁTICO;1.4-16V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Automática;6;483
+V0483;MOD0181;GTS 1.4TSI AUTOMÁTICO;1.4-16V;Utilitário esportivo compacto;Combustão;Flex;Eletro-hidráulica;Sim;Automática;6;484
+V0484;MOD0044;COMFORT TSI;1.0-12V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Automática;6;485
+V0485;MOD0044;HIGH TSI;1.0-12V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Automática;6;486
+V0486;MOD0044;TSI;1.0-12V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Manual;5;487
+V0487;MOD0040;CROSSC PLUS;Elétrico;Utilitário esportivo compacto 4x4;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;488
+V0488;MOD0040;C COUNTRY;Elétrico;Utilitário esportivo compacto 4x4;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;489
+V0489;MOD0182;S20i X Line;2.0-16V;Utilitário esportivo grande;Combustão;Gasolina;Elétrica;Sim;Automática;7;490
+V0490;MOD0182;S20i M Sport;2.0-16V;Utilitário esportivo grande;Combustão;Gasolina;Elétrica;Sim;Automática;7;491
+V0491;MOD0182;S20i GP;2.0-16V;Utilitário esportivo grande;Combustão;Gasolina;Elétrica;Sim;Automática;7;492
+V0492;MOD0053;xDrive20i MSP;2.0-16V;Utilitário esportivo grande;Combustão;Gasolina;Elétrica;Sim;Automática;7;493
+V0493;MOD0055;GL310 EV;Elétrico;Utilitário esportivo grande;Elétrico;Elétrico puro;Elétrica;Sim;Não se aplica;;494
+V0494;MOD0055;GS310 EV;Elétrico;Utilitário esportivo grande;Elétrico;Elétrico puro;Elétrica;Sim;Não se aplica;;495
+V0495;MOD0183;INFINITY (LEV4);1.5-16V;Utilitário esportivo grande;Combustão;Flex;Elétrica;Sim;Automática de dupla embreagem (DCT);7;496
+V0496;MOD0056;PRO 16TA;1.6T-16V;Utilitário esportivo grande;Combustão;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);7;497
+V0497;MOD0056;PRO HA;1.5T-16V;Utilitário esportivo grande;Híbrido;Flex;Elétrica;Sim;Continuamente variável (CVT);;498
+V0498;MOD0056;SPORT;1.5T-16V;Utilitário esportivo grande;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);9;499
+V0499;MOD0056;PRO 16TA;1.6T-16V;Utilitário esportivo grande;Combustão;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);7;500
+V0500;MOD0056;PRO HA;1.5T-16V;Utilitário esportivo grande;Híbrido;Flex;Elétrica;Sim;Continuamente variável (CVT);9;501
+V0501;MOD0056;SPORT;1.5T-16V;Utilitário esportivo grande;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);9;502
+V0502;MOD0184;16TA;1.6T-16V;Utilitário esportivo grande;Combustão;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);7;503
+V0503;MOD0184;PHEV;1.5T-16V;Utilitário esportivo grande;Plug-in;Gasolina;Elétrica;Sim;Híbrida dedicada (DHT);;504
+V0504;MOD0185;ELITE;1.5-16V;Utilitário esportivo grande;Combustão;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);7;505
+V0505;MOD0185;ELITE PLUS;1.5-16V;Utilitário esportivo grande;Combustão;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);7;506
+V0506;MOD0186;PREMIUM;2.0-16V;Utilitário esportivo grande;Híbrido;Gasolina;Elétrica;Sim;Híbrida dedicada (DHT);2;507
+V0507;MOD0186;ELITE;2.0-16V;Utilitário esportivo grande;Híbrido;Gasolina;Elétrica;Sim;Híbrida dedicada (DHT);2;508
+V0508;MOD0187;HEV ONE (MY26);1.5-16V;Utilitário esportivo grande;Híbrido;Gasolina;Elétrica;Sim;Híbrida dedicada (DHT);2;509
+V0509;MOD0187;HEV2 (MY26);1.5-16V;Utilitário esportivo grande;Híbrido;Gasolina;Elétrica;Sim;Híbrida dedicada (DHT);2;510
+V0510;MOD0187;PHEV19 (MY26);1.5-16V;Utilitário esportivo grande;Plug-in;Gasolina;Elétrica;Sim;Híbrida dedicada (DHT);2;511
+V0511;MOD0187;PHEV35 (MY26);1.5-16V;Utilitário esportivo grande;Plug-in;Gasolina;Elétrica;Sim;Híbrida dedicada (DHT);2;512
+V0512;MOD0187;GT (MY26);1.5-16V;Utilitário esportivo grande;Plug-in;Gasolina;Elétrica;Sim;Híbrida dedicada (DHT);2;513
+V0513;MOD0187;HEV ESP;1.5-16V;Utilitário esportivo grande;Híbrido;Gasolina;Elétrica;Sim;Híbrida dedicada (DHT);2;514
+V0514;MOD0187;PHEV19 FF;1.5-16V;Utilitário esportivo grande;Plug-in;Flex;Elétrica;Sim;Híbrida dedicada (DHT);2;515
+V0515;MOD0187;PHEV35 FF;1.5-16V;Utilitário esportivo grande;Plug-in;Flex;Elétrica;Sim;Híbrida dedicada (DHT);4;516
+V0516;MOD0187;GT FF;1.5-16V;Utilitário esportivo grande;Plug-in;Flex;Elétrica;Sim;Híbrida dedicada (DHT);4;517
+V0517;MOD0187;HEV1 FLEX;1.5-16V;Utilitário esportivo grande;Híbrido;Flex;Elétrica;Sim;Híbrida dedicada (DHT);2;518
+V0518;MOD0187;HEV2 FLEX;1.5-16V;Utilitário esportivo grande;Híbrido;Flex;Elétrica;Sim;Híbrida dedicada (DHT);2;519
+V0519;MOD0188;7;1.5-16V;Utilitário esportivo grande;Plug-in;Gasolina;Elétrica;Sim;Automática;4;520
+V0520;MOD0188;07 DARK ED.;1.5-16V;Utilitário esportivo grande;Plug-in;Gasolina;Elétrica;Sim;Híbrida dedicada (DHT);4;521
+V0521;MOD0189;TOURING;2.0-16V;Utilitário esportivo grande;Híbrido;Gasolina;Elétrica;Sim;Continuamente variável (CVT);;522
+V0522;MOD0190;LIM 7 270;1.3T-16V;Utilitário esportivo grande;Combustão;Flex;Elétrica;Sim;Automática;6;523
+V0523;MOD0190;LON 7 270;1.3T-16V;Utilitário esportivo grande;Combustão;Flex;Elétrica;Sim;Automática;6;524
+V0524;MOD0190;OVE 7 270;1.3T-16V;Utilitário esportivo grande;Combustão;Flex;Elétrica;Sim;Automática;6;525
+V0525;MOD0190;LMTD HYB;1.3T-16V;Utilitário esportivo grande;Híbrido;Flex;Elétrica;Sim;Automática;6;526
+V0526;MOD0190;OVER HYB;1.3T-16V;Utilitário esportivo grande;Híbrido;Flex;Elétrica;Sim;Automática;6;527
+V0527;MOD0191;LIMITED T;1.3T-16V;Utilitário esportivo grande;Combustão;Flex;Elétrica;Sim;Automática;6;528
+V0528;MOD0191;LONGITUDE T;1.3T-16V;Utilitário esportivo grande;Combustão;Flex;Elétrica;Sim;Automática;6;529
+V0529;MOD0191;SERIE S T;1.3T-16V;Utilitário esportivo grande;Combustão;Flex;Elétrica;Sim;Automática;6;530
+V0530;MOD0191;SPORT T;1.3T-16V;Utilitário esportivo grande;Combustão;Flex;Elétrica;Sim;Automática;6;531
+V0531;MOD0192;ADVANCE;1.5-16V;Utilitário esportivo grande;Plug-in;Gasolina;Elétrica;Sim;Automática;1;532
+V0532;MOD0192;PREMIUM;1.5-16V;Utilitário esportivo grande;Plug-in;Gasolina;Elétrica;Sim;Automática;1;533
+V0533;MOD0193;ADVANCE;1.5-16V;Utilitário esportivo grande;Plug-in;Gasolina;Elétrica;Sim;Automática;1;534
+V0534;MOD0193;PREMIUM;1.5-16V;Utilitário esportivo grande;Plug-in;Gasolina;Elétrica;Sim;Automática;1;535
+V0535;MOD0194;TMHEV EX;1.6-16V;Utilitário esportivo grande;Híbrido;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);7;536
+V0536;MOD0194;TMHEV LX;1.6-16V;Utilitário esportivo grande;Híbrido;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);7;537
+V0537;MOD0194;TMHEV SX;1.6-16V;Utilitário esportivo grande;Híbrido;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);7;538
+V0538;MOD0194;TMHEV GT;1.6-16V;Utilitário esportivo grande;Híbrido;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);7;539
+V0539;MOD0194;TMHEV EXP;1.6-16V;Utilitário esportivo grande;Híbrido;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);7;540
+V0540;MOD0195;RUSH;1.5T-16V;Utilitário esportivo grande;Combustão;Gasolina;Elétrica;Sim;Continuamente variável (CVT);;541
+V0541;MOD0195;HPE;1.5T-16V;Utilitário esportivo grande;Combustão;Gasolina;Elétrica;Sim;Continuamente variável (CVT);;542
+V0542;MOD0195;HPE BLACK;1.5T-16V;Utilitário esportivo grande;Combustão;Gasolina;Elétrica;Sim;Continuamente variável (CVT);;543
+V0543;MOD0195;HPE-S;1.5T-16V;Utilitário esportivo grande;Combustão;Gasolina;Elétrica;Sim;Continuamente variável (CVT);;544
+V0544;MOD0196;DUSTER ICO16 CVT;1.6-16V;Utilitário esportivo grande;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);;545
+V0545;MOD0196;DUSTER ICOP CVT;1.6-16V;Utilitário esportivo grande;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);;546
+V0546;MOD0196;DUSTERINT16 CVT;1.6-16V;Utilitário esportivo grande;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);;547
+V0547;MOD0196;DUSTER INTP CVT;1.6-16V;Utilitário esportivo grande;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);;548
+V0548;MOD0196;DUSTER LIF16 CVT;1.6-16V;Utilitário esportivo grande;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);;549
+V0549;MOD0196;DUSTER ZEN16 CVT;1.6-16V;Utilitário esportivo grande;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);;550
+V0550;MOD0196;DUSTER INT 16;1.6-16V;Utilitário esportivo grande;Combustão;Flex;Elétrica;Sim;Manual;5;551
+V0551;MOD0196;DUSTER INTP MT;1.6-16V;Utilitário esportivo grande;Combustão;Flex;Elétrica;Sim;Manual;5;552
+V0552;MOD0196;DUSTER ZEN 16;1.6-16V;Utilitário esportivo grande;Combustão;Flex;Elétrica;Sim;Manual;5;553
+V0553;MOD0196;DUSTER ICO TCE;1.3-16V;Utilitário esportivo grande;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);;554
+V0554;MOD0196;DUSTER ICOUT TCE;1.3-16V;Utilitário esportivo grande;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);;555
+V0555;MOD0196;DUSTER ZEN13TCE;1.3-16V;Utilitário esportivo grande;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);;556
+V0556;MOD0197;EVO;1.3-16V;Utilitário esportivo grande;Combustão;Flex;Elétrica;Sim;Automática de dupla embreagem (DCT);6;557
+V0557;MOD0197;TECH;1.3-16V;Utilitário esportivo grande;Combustão;Flex;Elétrica;Sim;Automática de dupla embreagem (DCT);6;558
+V0558;MOD0197;ICO;1.3-16V;Utilitário esportivo grande;Combustão;Flex;Elétrica;Sim;Automática de dupla embreagem (DCT);6;559
+V0559;MOD0198;6 CORE;Elétrico;Utilitário esportivo grande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;560
+V0560;MOD0198;6 PLUS;Elétrico;Utilitário esportivo grande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;561
+V0561;MOD0198;6 ULTRA;Elétrico;Utilitário esportivo grande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;562
+V0562;MOD0199;HIGHLINE 250TSI AUTOMÁTICO;1.4-16V;Utilitário esportivo grande;Combustão;Flex;Elétrica;Sim;Automática;8;563
+V0563;MOD0199;COMFORTLINE 250TSI AUTOMÁTICO;1.4-16V;Utilitário esportivo grande;Combustão;Flex;Elétrica;Sim;Automática;8;564
+V0564;MOD0200;Premium;Elétrico;Utilitário esportivo grande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;;565
+V0565;MOD0201;M50i;3.0-24V;Utilitário esportivo grande 4x4;Híbrido;Gasolina;Elétrica;Sim;Automática;8;566
+V0566;MOD0201;30 XDRIVE;2.0-16V;Utilitário esportivo grande 4x4;Híbrido;Gasolina;Elétrica;Sim;Automática;8;567
+V0567;MOD0202;xDrive50e MSP;3.0-24V;Utilitário esportivo grande 4x4;Plug-in;Gasolina;Elétrica;Sim;Automática;8;568
+V0568;MOD0202;xDrive50e XLINE;3.0-24V;Utilitário esportivo grande 4x4;Plug-in;Gasolina;Elétrica;Sim;Automática;8;569
+V0569;MOD0203;xDrive40i MSP;3.0-24V;Utilitário esportivo grande 4x4;Híbrido;Gasolina;Elétrica;Sim;Automática;8;570
+V0570;MOD0203;40I MSP DARK ED;3.0-24V;Utilitário esportivo grande 4x4;Híbrido;Gasolina;Elétrica;Sim;Automática;8;571
+V0571;MOD0204;xDrive40i;3.0-24V;Utilitário esportivo grande 4x4;Híbrido;Gasolina;Elétrica;Sim;Automática;8;572
+V0572;MOD0205;ULTRA;1.5-16V;Utilitário esportivo grande 4x4;Plug-in;Gasolina;Elétrica;Sim;Automática;1;573
+V0573;MOD0206;Signature;3.8-24V;Utilitário esportivo grande 4x4;Combustão;Gasolina;Elétrica;Sim;Automática;8;574
+V0574;MOD0193;PRM 4X4;1.5-16V;Utilitário esportivo grande 4x4;Plug-in;Gasolina;Elétrica;Sim;Automática;3;575
+V0575;MOD0207;;2.0-16V;Utilitário esportivo grande 4x4;Híbrido;Gasolina;Elétrica;Sim;Automática;9;576
+V0576;MOD0207;CO;2.0-16V;Utilitário esportivo grande 4x4;Híbrido;Gasolina;Elétrica;Sim;Automática;9;577
+V0577;MOD0208;AMGL;3.0-24V;Utilitário esportivo grande 4x4;Híbrido;Diesel;Elétrica;Sim;Automática;9;578
+V0578;MOD0208;CO AMGL;3.0-24V;Utilitário esportivo grande 4x4;Híbrido;Diesel;Elétrica;Sim;Automática;9;579
+V0579;MOD0195;HPE-S S-AWC;1.5T-16V;Utilitário esportivo grande 4x4;Combustão;Gasolina;Elétrica;Sim;Continuamente variável (CVT);;580
+V0580;MOD0195;HPE-S BLACK S-AWC;1.5T-16V;Utilitário esportivo grande 4x4;Combustão;Gasolina;Elétrica;Sim;Continuamente variável (CVT);;581
+V0581;MOD0154;GT COUPE;4.0-32V;Utilitário esportivo grande 4x4;Combustão;Gasolina;Elétrica;Sim;Automática;8;582
+V0582;MOD0154;PHEV;3.0-24V;Utilitário esportivo grande 4x4;Plug-in;Gasolina;Elétrica;Sim;Automática;8;583
+V0583;MOD0154;CP PHE;3.0-24V;Utilitário esportivo grande 4x4;Plug-in;Gasolina;Elétrica;Sim;Automática;8;584
+V0584;MOD0154;CPH BE;3.0-24V;Utilitário esportivo grande 4x4;Plug-in;Gasolina;Elétrica;Sim;Automática;8;585
+V0585;MOD0154;PH BE;3.0-24V;Utilitário esportivo grande 4x4;Plug-in;Gasolina;Elétrica;Sim;Automática;8;586
+V0586;MOD0154;COUPE;3.0-24V;Utilitário esportivo grande 4x4;Combustão;Gasolina;Elétrica;Sim;Automática;8;587
+V0587;MOD0154;V6;3.0-24V;Utilitário esportivo grande 4x4;Combustão;Gasolina;Elétrica;Sim;Automática;8;588
+V0588;MOD0154;T PHEV;4.0-32V;Utilitário esportivo grande 4x4;Plug-in;Gasolina;Elétrica;Sim;Automática;8;589
+V0589;MOD0154;TCPHEV;4.0-32V;Utilitário esportivo grande 4x4;Plug-in;Gasolina;Elétrica;Sim;Automática;8;590
+V0590;MOD0154;GTP;4.0-32V;Utilitário esportivo grande 4x4;Combustão;Gasolina;Elétrica;Sim;Automática;8;591
+V0591;MOD0154;GTS CP;4.0-32V;Utilitário esportivo grande 4x4;Combustão;Gasolina;Elétrica;Sim;Automática;8;592
+V0592;MOD0154;S;4.0-32V;Utilitário esportivo grande 4x4;Combustão;Gasolina;Elétrica;Sim;Automática;8;593
+V0593;MOD0154;S CP;4.0-32V;Utilitário esportivo grande 4x4;Combustão;Gasolina;Elétrica;Sim;Automática;8;594
+V0594;MOD0154;S PHEV;3.0-24V;Utilitário esportivo grande 4x4;Plug-in;Gasolina;Elétrica;Sim;Automática;8;595
+V0595;MOD0154;SCPHEV;3.0-24V;Utilitário esportivo grande 4x4;Plug-in;Gasolina;Elétrica;Sim;Automática;8;596
+V0596;MOD0154;SCPHBE;3.0-24V;Utilitário esportivo grande 4x4;Plug-in;Gasolina;Elétrica;Sim;Automática;8;597
+V0597;MOD0154;SPH BE;3.0-24V;Utilitário esportivo grande 4x4;Plug-in;Gasolina;Elétrica;Sim;Automática;8;598
+V0598;MOD0154;E;Elétrico;Utilitário esportivo grande 4x4;Elétrico;Elétrico puro;Elétrica;Sim;Não informado;;599
+V0599;MOD0154;E OF;Elétrico;Utilitário esportivo grande 4x4;Elétrico;Elétrico puro;Elétrica;Sim;Não informado;;600
+V0600;MOD0154;E C;Elétrico;Utilitário esportivo grande 4x4;Elétrico;Elétrico puro;Elétrica;Sim;Não informado;;601
+V0601;MOD0154;E CO;Elétrico;Utilitário esportivo grande 4x4;Elétrico;Elétrico puro;Elétrica;Sim;Não informado;;602
+V0602;MOD0154;ET;Elétrico;Utilitário esportivo grande 4x4;Elétrico;Elétrico puro;Elétrica;Sim;Não informado;;603
+V0603;MOD0154;ET C;Elétrico;Utilitário esportivo grande 4x4;Elétrico;Elétrico puro;Elétrica;Sim;Não informado;;604
+V0604;MOD0154;ET OF;Elétrico;Utilitário esportivo grande 4x4;Elétrico;Elétrico puro;Elétrica;Sim;Não informado;;605
+V0605;MOD0154;ET CO;Elétrico;Utilitário esportivo grande 4x4;Elétrico;Elétrico puro;Elétrica;Sim;Não informado;;606
+V0606;MOD0209;INSC EXPRESS;2.0-16V;Utilitário esportivo grande 4x4;Plug-in;Gasolina;Elétrica;Sim;Automática;;607
+V0607;MOD0209;T8 CORE;2.0-16V;Utilitário esportivo grande 4x4;Plug-in;Gasolina;Elétrica;Sim;Automática;;608
+V0608;MOD0209;T8 INSCRIPT;2.0-16V;Utilitário esportivo grande 4x4;Plug-in;Gasolina;Elétrica;Sim;Automática;;609
+V0609;MOD0209;T8 MOMENTUM;2.0-16V;Utilitário esportivo grande 4x4;Plug-in;Gasolina;Elétrica;Sim;Automática;;610
+V0610;MOD0209;T8 PLUS;2.0-16V;Utilitário esportivo grande 4x4;Plug-in;Gasolina;Elétrica;Sim;Automática;;611
+V0611;MOD0209;T8 POLESTAR;2.0-16V;Utilitário esportivo grande 4x4;Plug-in;Gasolina;Elétrica;Sim;Automática;;612
+V0612;MOD0209;T8 R-DESIGN;2.0-16V;Utilitário esportivo grande 4x4;Plug-in;Gasolina;Elétrica;Sim;Automática;;613
+V0613;MOD0209;T8 ULT DARK;2.0-16V;Utilitário esportivo grande 4x4;Plug-in;Gasolina;Elétrica;Sim;Automática;;614
+V0614;MOD0209;T8 ULTIMATE;2.0-16V;Utilitário esportivo grande 4x4;Plug-in;Gasolina;Elétrica;Sim;Automática;;615
+V0615;MOD0209;T8 ULTRA;2.0-16V;Utilitário esportivo grande 4x4;Plug-in;Gasolina;Elétrica;Sim;Automática;;616
+V0616;MOD0210;INSC EXPRESS;2.0-16V;Utilitário esportivo grande 4x4;Plug-in;Gasolina;Elétrica;Sim;Automática;;617
+V0617;MOD0210;T8 CORE;2.0-16V;Utilitário esportivo grande 4x4;Plug-in;Gasolina;Elétrica;Sim;Automática;;618
+V0618;MOD0210;T8 EXCELLEN;2.0-16V;Utilitário esportivo grande 4x4;Plug-in;Gasolina;Elétrica;Sim;Automática;;619
+V0619;MOD0210;T8 INSCRIPT;2.0-16V;Utilitário esportivo grande 4x4;Plug-in;Gasolina;Elétrica;Sim;Automática;;620
+V0620;MOD0210;T8 MOMENTUM;2.0-16V;Utilitário esportivo grande 4x4;Plug-in;Gasolina;Elétrica;Sim;Automática;;621
+V0621;MOD0210;T8 PLUS;2.0-16V;Utilitário esportivo grande 4x4;Plug-in;Gasolina;Elétrica;Sim;Automática;;622
+V0622;MOD0210;T8 POLESTAR;2.0-16V;Utilitário esportivo grande 4x4;Plug-in;Gasolina;Elétrica;Sim;Automática;;623
+V0623;MOD0210;T8 R-DESIGN;2.0-16V;Utilitário esportivo grande 4x4;Plug-in;Gasolina;Elétrica;Sim;Automática;;624
+V0624;MOD0210;T8 ULT DARK;2.0-16V;Utilitário esportivo grande 4x4;Plug-in;Gasolina;Elétrica;Sim;Automática;;625
+V0625;MOD0210;T8 ULTIMATE;2.0-16V;Utilitário esportivo grande 4x4;Plug-in;Gasolina;Elétrica;Sim;Automática;;626
+V0626;MOD0210;T8 ULTRA;2.0-16V;Utilitário esportivo grande 4x4;Plug-in;Gasolina;Elétrica;Sim;Automática;;627
+V0627;MOD0210;T8 AWD PLUS;2.0-16V;Utilitário esportivo grande 4x4;Plug-in;Gasolina;Elétrica;Sim;Automática;;628
+V0628;MOD0210;T8 AWD ULT;2.0-16V;Utilitário esportivo grande 4x4;Plug-in;Gasolina;Elétrica;Sim;Automática;;629
+V0629;MOD0210;T8 AWD ULTD;2.0-16V;Utilitário esportivo grande 4x4;Plug-in;Gasolina;Elétrica;Sim;Automática;;630
+V0630;MOD0210;AWD ULT BLA;2.0-16V;Utilitário esportivo grande 4x4;Plug-in;Gasolina;Elétrica;Sim;Automática;;631
+V0631;MOD0211;ULTRA TWIN;Elétrico;Utilitário esportivo grande 4x4;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;632
+V0632;MOD0211;PLUS TWIN;Elétrico;Utilitário esportivo grande 4x4;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;633
+V0633;MOD0211;ULT TWIN PER;Elétrico;Utilitário esportivo grande 4x4;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;634
+V0634;MOD0198;8 CORE;Elétrico;Utilitário esportivo grande 4x4;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;635
+V0635;MOD0198;8 PLUS;Elétrico;Utilitário esportivo grande 4x4;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;636
+V0636;MOD0198;8 ULTRA;Elétrico;Utilitário esportivo grande 4x4;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;637
+V0637;MOD0198;PERF BLACK;Elétrico;Utilitário esportivo grande 4x4;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;638
+V0638;MOD0198;PERF ULTRA;Elétrico;Utilitário esportivo grande 4x4;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;639
+V0639;MOD0200;Flagship;Elétrico;Utilitário esportivo grande 4x4;Elétrico;Elétrico puro;Elétrica;Sim;Automática;;640
+V0640;MOD0172;WILLYS 4x4;1.3T-16V;Fora de estrada compacto;Combustão;Flex;Elétrica;Sim;Automática;9;641
+V0641;MOD0172;WILLYS 4X4T (MY27);1.3T-16V;Fora de estrada compacto;Combustão;Flex;Elétrica;Sim;Automática;9;642
+V0642;MOD0212;HC D4A;2.8-16V;Fora de estrada grande;Combustão;Diesel;Elétrica;Sim;Automática;8;643
+V0643;MOD0212;LT D4A;2.8-16V;Fora de estrada grande;Combustão;Diesel;Elétrica;Sim;Automática;8;644
+V0644;MOD0212;HC MID;2.8-16V;Fora de estrada grande;Combustão;Diesel;Elétrica;Sim;Automática;8;645
+V0645;MOD0213;GS DM;1.5-16V;Fora de estrada grande;Plug-in;Gasolina;Elétrica;Sim;Automática;1;646
+V0646;MOD0214;Badlands;2.0-16V;Fora de estrada grande;Combustão;Gasolina;Elétrica;Sim;Automática;8;647
+V0647;MOD0215;EXC;2.4-16V;Fora de estrada grande;Combustão;Diesel;Elétrica;Sim;Automática;9;648
+V0648;MOD0215;SELECTION;2.4-16V;Fora de estrada grande;Combustão;Diesel;Elétrica;Sim;Automática;9;649
+V0649;MOD0216;PHEV;2.0-16V;Fora de estrada grande;Plug-in;Gasolina;Elétrica;Sim;Automática;9;650
+V0650;MOD0216;PHEV FLEX;2.0-16V;Fora de estrada grande;Plug-in;Flex;Elétrica;Sim;Automática;9;651
+V0651;MOD0190;BLA 2.0 G;2.0T-16V;Fora de estrada grande;Combustão;Gasolina;Elétrica;Sim;Automática;9;652
+V0652;MOD0190;OVE 2.2 D;2.2T-16V;Fora de estrada grande;Combustão;Diesel;Elétrica;Sim;Automática;9;653
+V0653;MOD0190;BLK GME (MY27);2.0T-16V;Fora de estrada grande;Combustão;Flex;Elétrica;Sim;Automática;9;654
+V0654;MOD0191;BLACKHAWK;2.0T-16V;Fora de estrada grande;Combustão;Gasolina;Elétrica;Sim;Automática;9;655
+V0655;MOD0191;BLACKHAWK F;2.0T-16V;Fora de estrada grande;Combustão;Flex;Elétrica;Sim;Automática;9;656
+V0656;MOD0217;UNL RUBI;2.0T-16V;Fora de estrada grande;Combustão;Gasolina;Eletro-hidráulica;Sim;Automática;8;657
+V0657;MOD0218;EX;2.2-16V;Fora de estrada grande;Combustão;Diesel;Elétrica;Sim;Automática de dupla embreagem (DCT);8;658
+V0658;MOD0219;PHEV SV;3.0-24V;Fora de estrada grande;Plug-in;Gasolina;Elétrica;Sim;Automática;8;659
+V0659;MOD0219;PHEV SE;3.0-24V;Fora de estrada grande;Plug-in;Gasolina;Elétrica;Sim;Automática;8;660
+V0660;MOD0219;PHEV HSE;3.0-24V;Fora de estrada grande;Plug-in;Gasolina;Elétrica;Sim;Automática;8;661
+V0661;MOD0219;PHEV AB;3.0-24V;Fora de estrada grande;Plug-in;Gasolina;Elétrica;Sim;Automática;8;662
+V0662;MOD0220;HSE XD;3.0-24V;Fora de estrada grande;Híbrido;Diesel;Elétrica;Sim;Automática;8;663
+V0663;MOD0221;X;3.0-24V;Fora de estrada grande;Híbrido;Diesel;Elétrica;Sim;Automática;8;664
+V0664;MOD0221;X7L;3.0-24V;Fora de estrada grande;Híbrido;Diesel;Elétrica;Sim;Automática;8;665
+V0665;MOD0222;PHEV AB;2.0-16V;Fora de estrada grande;Plug-in;Gasolina;Elétrica;Sim;Automática;8;666
+V0666;MOD0223;TROPHY;3.0-24V;Fora de estrada grande;Híbrido;Diesel;Elétrica;Sim;Automática;8;667
+V0667;MOD0223;HSEXD 7L;3.0-24V;Fora de estrada grande;Híbrido;Diesel;Elétrica;Sim;Automática;8;668
+V0668;MOD0223;X 7L;3.0-24V;Fora de estrada grande;Híbrido;Diesel;Elétrica;Sim;Automática;8;669
+V0669;MOD0224;D350 LE;3.0-24V;Fora de estrada grande;Híbrido;Diesel;Elétrica;Sim;Automática;8;670
+V0670;MOD0224;D350 TEMPEST;3.0-24V;Fora de estrada grande;Híbrido;Diesel;Elétrica;Sim;Automática;8;671
+V0671;MOD0225;PHEV S;3.0-24V;Fora de estrada grande;Plug-in;Gasolina;Elétrica;Sim;Automática;8;672
+V0672;MOD0225;PHEV SE;3.0-24V;Fora de estrada grande;Plug-in;Gasolina;Elétrica;Sim;Automática;8;673
+V0673;MOD0225;PHEV SED;3.0-24V;Fora de estrada grande;Plug-in;Gasolina;Elétrica;Sim;Automática;8;674
+V0674;MOD0225;PHEV HSED;3.0-24V;Fora de estrada grande;Plug-in;Gasolina;Elétrica;Sim;Automática;8;675
+V0675;MOD0225;PHEV AB;3.0-24V;Fora de estrada grande;Plug-in;Gasolina;Elétrica;Sim;Automática;8;676
+V0676;MOD0226;P250FF AB;2.0-16V;Fora de estrada grande;Combustão;Flex;Elétrica;Sim;Automática;9;677
+V0677;MOD0227;P250FF LE;2.0-16V;Fora de estrada grande;Combustão;Flex;Elétrica;Sim;Automática;9;678
+V0678;MOD0227;P250FF LE 7L;2.0-16V;Fora de estrada grande;Combustão;Flex;Elétrica;Sim;Automática;9;679
+V0679;MOD0227;P250FF SE D;2.0-16V;Fora de estrada grande;Combustão;Flex;Elétrica;Sim;Automática;9;680
+V0680;MOD0227;P250FF SED7L;2.0-16V;Fora de estrada grande;Combustão;Flex;Elétrica;Sim;Automática;9;681
+V0681;MOD0228;MFKT;4.0-32V;Fora de estrada grande;Híbrido;Gasolina;Elétrica;Sim;Automática;9;682
+V0682;MOD0229;;4.0-32V;Fora de estrada grande;Híbrido;Gasolina;Elétrica;Sim;Automática;9;683
+V0683;MOD0229;GRD;4.0-32V;Fora de estrada grande;Híbrido;Gasolina;Elétrica;Sim;Automática;9;684
+V0684;MOD0230;DIAMOND AT;2.8-16V;Fora de estrada grande;Combustão;Diesel;Hidráulica;Sim;Automática;6;685
+V0685;MOD0230;SRX PLATINUM AT;2.8-16V;Fora de estrada grande;Combustão;Diesel;Hidráulica;Sim;Automática;6;686
+V0686;MOD0231;R LINE;2.0-16V;Fora de estrada grande;Combustão;Gasolina;Elétrica;Sim;Automática;8;687
+V0687;MOD0020;1.8L AT LTZ;1.8L-8V;Minivan;Combustão;Flex;Elétrica;Sim;Automática;6;688
+V0688;MOD0020;18L AT PREMIER;1.8L-8V;Minivan;Combustão;Flex;Elétrica;Sim;Automática;6;689
+V0689;MOD0232;HEV EX;1.6-16V;Minivan;Híbrido;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);6;690
+V0690;MOD0232;HEV LX;1.6-16V;Minivan;Híbrido;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);6;691
+V0691;MOD0232;HEV SX;1.6-16V;Minivan;Híbrido;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);6;692
+V0692;MOD0233;---;Elétrico;Comercial leve;Elétrico;Elétrico puro;Elétrica;Sim;Não se aplica;;693
+V0693;MOD0017;LOG;1.0-12 V;Comercial leve;Combustão;Flex;Elétrica;Sim;Manual;6;694
+V0694;MOD0017;10MT LOG;1.0-12 V;Comercial leve;Combustão;Flex;Elétrica;Sim;Manual;6;695
+V0695;MOD0234;CARGO;ELÉTRICO;Comercial leve;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;696
+V0696;MOD0235;COMFORT;2.2T-16V;Comercial leve;Combustão;Diesel;Hidráulica;Sim;Manual;6;697
+V0697;MOD0235;MB16;2.2T-16V;Comercial leve;Combustão;Diesel;Hidráulica;Sim;Manual;6;698
+V0698;MOD0235;CARGOPK;2.2T-16V;Comercial leve;Combustão;Diesel;Hidráulica;Sim;Manual;6;699
+V0699;MOD0235;FURG PK;2.2T-16V;Comercial leve;Combustão;Diesel;Hidráulica;Sim;Manual;6;700
+V0700;MOD0235;VITRE;2.2T-16V;Comercial leve;Combustão;Diesel;Hidráulica;Sim;Manual;6;701
+V0701;MOD0235;L3H2AMB;2.2T-16V;Comercial leve;Combustão;Diesel;Hidráulica;Sim;Manual;6;702
+V0702;MOD0236;CARGO;2.2T-16V;Comercial leve;Combustão;Diesel;Elétrica;Sim;Manual;6;703
+V0703;MOD0236;VITRE;2.2T-16V;Comercial leve;Combustão;Diesel;Elétrica;Sim;Manual;6;704
+V0704;MOD0237;--;Elétrico;Comercial leve;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;705
+V0705;MOD0238;AIR 11M3;Elétrico;Comercial leve;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;706
+V0706;MOD0238;AIR PRO11M3;Elétrico;Comercial leve;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;707
+V0707;MOD0238;LUX 11M3;Elétrico;Comercial leve;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;708
+V0708;MOD0238;LUX PRO11M3;Elétrico;Comercial leve;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;709
+V0709;MOD0238;AIR 8M3;Elétrico;Comercial leve;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;710
+V0710;MOD0238;AIR PRO 8M3;Elétrico;Comercial leve;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;711
+V0711;MOD0238;LUX 8M3;Elétrico;Comercial leve;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;712
+V0712;MOD0238;LUX PRO 8M3;Elétrico;Comercial leve;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;713
+V0713;MOD0239;MB COMFORT;2.2T-16V;Comercial leve;Combustão;Diesel;Hidráulica;Sim;Manual;6;714
+V0714;MOD0239;MB LUXO 16;2.2T-16V;Comercial leve;Combustão;Diesel;Hidráulica;Sim;Manual;6;715
+V0715;MOD0239;L3H2AMB;2.2T-16V;Comercial leve;Combustão;Diesel;Hidráulica;Sim;Manual;6;716
+V0716;MOD0239;MXCARGO13M;2.2T-16V;Comercial leve;Combustão;Diesel;Hidráulica;Sim;Manual;6;717
+V0717;MOD0239;FURGAO 13M;2.2T-16V;Comercial leve;Combustão;Diesel;Hidráulica;Sim;Manual;6;718
+V0718;MOD0239;MULTI 13M;2.2T-16V;Comercial leve;Combustão;Diesel;Hidráulica;Sim;Manual;6;719
+V0719;MOD0240;ENDURANCE;1.3-8V;Comercial leve;Combustão;Flex;Elétrica;Sim;Manual;5;720
+V0720;MOD0241;MULTI TD;2.2T-16V;Comercial leve;Combustão;Diesel;Elétrica;Sim;Manual;6;721
+V0721;MOD0241;CARGO TD;2.2T-16V;Comercial leve;Combustão;Diesel;Elétrica;Sim;Manual;6;722
+V0722;MOD0242;F35MMAB;Elétrico;Comercial leve;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;723
+V0723;MOD0242;F35MAAB;Elétrico;Comercial leve;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;724
+V0724;MOD0242;F35LMAB;Elétrico;Comercial leve;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;725
+V0725;MOD0242;F35LAAB;Elétrico;Comercial leve;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;726
+V0726;MOD0242;F35EAAB;Elétrico;Comercial leve;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;727
+V0727;MOD0242;C35LBAB;Elétrico;Comercial leve;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;728
+V0728;MOD0242;C35EBAB;Elétrico;Comercial leve;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;729
+V0729;MOD0243;F35LAMA;2.0-16V;Comercial leve;Combustão;Diesel;Elétrica;Sim;Manual;6;730
+V0730;MOD0243;F35MMMA;2.0-16V;Comercial leve;Combustão;Diesel;Elétrica;Sim;Manual;6;731
+V0731;MOD0243;F35MAMA;2.0-16V;Comercial leve;Combustão;Diesel;Elétrica;Sim;Manual;6;732
+V0732;MOD0243;F38LAMA;2.0-16V;Comercial leve;Combustão;Diesel;Elétrica;Sim;Manual;6;733
+V0733;MOD0244;GRAND53;Elétrico;Comercial leve;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;734
+V0734;MOD0245;CHASSI;Elétrico;Comercial leve;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;735
+V0735;MOD0246;50S;Elétrico;Comercial leve;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;736
+V0736;MOD0244;GRAND77;Elétrico;Comercial leve;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;737
+V0737;MOD0247;PRO H;Elétrico;Comercial leve;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;738
+V0738;MOD0247;PRO M;Elétrico;Comercial leve;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;739
+V0739;MOD0248;CS;1.6-16V;Comercial leve;Combustão;Gasolina;Elétrica;Sim;Manual;5;740
+V0740;MOD0248;CHASSI;1.6-16V;Comercial leve;Combustão;Gasolina;Elétrica;Sim;Manual;5;741
+V0741;MOD0249;CARGO;Elétrico;Comercial leve;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;742
+V0742;MOD0250;HD SC 4WD;2.5-16V;Comercial leve;Combustão;Diesel;Hidráulica;Sim;Manual;6;743
+V0743;MOD0250;HDDL 4WD;2.5-16V;Comercial leve;Combustão;Diesel;Hidráulica;Sim;Manual;6;744
+V0744;MOD0251;Furgão;Elétrico;Comercial leve;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;745
+V0745;MOD0251;Chassi;Elétrico;Comercial leve;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;746
+V0746;MOD0252;Furgão;2.0-16V;Comercial leve;Combustão;Diesel;Hidráulica;Sim;Manual;6;747
+V0747;MOD0252;Chassi;2.0-16V;Comercial leve;Combustão;Diesel;Hidráulica;Sim;Manual;6;748
+V0748;MOD0253;16L LUXO;2.2T-16V;Comercial leve;Combustão;Diesel;Hidráulica;Sim;Manual;6;749
+V0749;MOD0253;COMFORT;2.2T-16V;Comercial leve;Combustão;Diesel;Hidráulica;Sim;Manual;6;750
+V0750;MOD0253;CARGO PK;2.2T-16V;Comercial leve;Combustão;Diesel;Hidráulica;Sim;Manual;6;751
+V0751;MOD0253;VIDRADA;2.2T-16V;Comercial leve;Combustão;Diesel;Hidráulica;Sim;Manual;6;752
+V0752;MOD0253;FURGAOPK;2.2T-16V;Comercial leve;Combustão;Diesel;Hidráulica;Sim;Manual;6;753
+V0753;MOD0254;CARGO;ELÉTRICO;Comercial leve;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;754
+V0754;MOD0255;CARGO;2.2T-16V;Comercial leve;Combustão;Diesel;Elétrica;Sim;Manual;6;755
+V0755;MOD0255;VITRE;2.2T-16V;Comercial leve;Combustão;Diesel;Elétrica;Sim;Manual;6;756
+V0756;MOD0256;BUSIPK;1.3-8V;Comercial leve;Combustão;Flex;Elétrica;Sim;Manual;5;757
+V0757;MOD0257;FURGÃO L1;2.3-16V;Comercial leve;Combustão;Diesel;Eletro-hidráulica;Sim;Manual;6;758
+V0758;MOD0257;FURGÃO L2;2.3-16V;Comercial leve;Combustão;Diesel;Eletro-hidráulica;Sim;Manual;6;759
+V0759;MOD0257;FURGÃO L3;2.3-16V;Comercial leve;Combustão;Diesel;Eletro-hidráulica;Sim;Manual;6;760
+V0760;MOD0257;FURGÃOL1R;2.3-16V;Comercial leve;Combustão;Diesel;Eletro-hidráulica;Sim;Manual;6;761
+V0761;MOD0257;FURGÃOL2R;2.3-16V;Comercial leve;Combustão;Diesel;Eletro-hidráulica;Sim;Manual;6;762
+V0762;MOD0257;FURGÃOL3R;2.3-16V;Comercial leve;Combustão;Diesel;Eletro-hidráulica;Sim;Manual;6;763
+V0763;MOD0258;PRÓ L1;2.3-16V;Comercial leve;Combustão;Diesel;Eletro-hidráulica;Sim;Manual;6;764
+V0764;MOD0258;PRÓ L2;2.3-16V;Comercial leve;Combustão;Diesel;Eletro-hidráulica;Sim;Manual;6;765
+V0765;MOD0258;PRÓ L3;2.3-16V;Comercial leve;Combustão;Diesel;Eletro-hidráulica;Sim;Manual;6;766
+V0766;MOD0258;VITPRO3AC;2.3-16V;Comercial leve;Combustão;Diesel;Eletro-hidráulica;Sim;Manual;6;767
+V0767;MOD0258;VITPROL3R;2.3-16V;Comercial leve;Combustão;Diesel;Eletro-hidráulica;Sim;Manual;6;768
+V0768;MOD0259;MINIBUSL3;2.3-16V;Comercial leve;Combustão;Diesel;Eletro-hidráulica;Sim;Manual;6;769
+V0769;MOD0260;CHASSICAB;2.3-16V;Comercial leve;Combustão;Diesel;Eletro-hidráulica;Sim;Manual;6;770
+V0770;MOD0261;ADV16;1.6-16V;Comercial leve;Combustão;Flex;Eletro-hidráulica;Sim;Manual;5;771
+V0771;MOD0261;EX PRO;1.6-16V;Comercial leve;Combustão;Flex;Eletro-hidráulica;Sim;Manual;5;772
+V0772;MOD0261;SRT16;1.6-16V;Comercial leve;Combustão;Flex;Eletro-hidráulica;Sim;Manual;5;773
+V0773;MOD0261;ETECHL2;Elétrico;Comercial leve;Elétrico;Elétrico puro;Elétrica;Sim;Automática;;774
+V0774;MOD0005;CARGO;Elétrico;Comercial leve;Elétrico;Elétrico puro;Elétrica;Sim;Automática;;775
+V0775;MOD0262;MINIBUS AT DX;2.8-16V;Comercial leve;Combustão;Diesel;Hidráulica;Sim;Automática;6;776
+V0776;MOD0262;HIACE CARGO AT DX;2.8-16V;Comercial leve;Combustão;Diesel;Hidráulica;Sim;Automática;6;777
+V0777;MOD0263;MT;1.2T-12V;Picape compacta;Combustão;Flex;Elétrica;Sim;Manual;6;778
+V0778;MOD0263;LT;1.2T-12V;Picape compacta;Combustão;Flex;Elétrica;Sim;Manual;6;779
+V0779;MOD0263;LTZ;1.2T-12V;Picape compacta;Combustão;Flex;Elétrica;Sim;Automática;6;780
+V0780;MOD0263;PREMIER;1.2T-12V;Picape compacta;Combustão;Flex;Elétrica;Sim;Automática;6;781
+V0781;MOD0263;RS;1.2T-12V;Picape compacta;Combustão;Flex;Elétrica;Sim;Automática;6;782
+V0782;MOD0264;ENDURAN CS13;1.3-8V;Picape compacta;Combustão;Flex;Elétrica;Sim;Manual;5;783
+V0783;MOD0264;FREEDOM CS13;1.3-8V;Picape compacta;Combustão;Flex;Elétrica;Sim;Manual;5;784
+V0784;MOD0264;FREEDOM CD13;1.3-8V;Picape compacta;Combustão;Flex;Elétrica;Sim;Manual;5;785
+V0785;MOD0264;VOLCANO CD13;1.3-8V;Picape compacta;Combustão;Flex;Elétrica;Sim;Manual;5;786
+V0786;MOD0264;VOLCANO 13AT;1.3-8V;Picape compacta;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);7;787
+V0787;MOD0264;ULTRA T200AT;1.0T-12V;Picape compacta;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);7;788
+V0788;MOD0264;RANCH T200AT;1.0T-12V;Picape compacta;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);7;789
+V0789;MOD0265;Intense16M;1.6-16V;Picape compacta;Combustão;Flex;Eletro-hidráulica;Sim;Manual;6;790
+V0790;MOD0265;PRO 16;1.6-16V;Picape compacta;Combustão;Flex;Eletro-hidráulica;Sim;Manual;6;791
+V0791;MOD0266;SAVEIRO CABINE SIMPLES ROBUST MF;1.6-16V;Picape compacta;Combustão;Flex;Hidráulica;Sim;Manual;5;792
+V0792;MOD0266;CABINE SIMPLES TRENDLINE MF;1.6-16V;Picape compacta;Combustão;Flex;Hidráulica;Sim;Manual;5;793
+V0793;MOD0266;CABINE DUPLA ROBUST MF;1.6-16V;Picape compacta;Combustão;Flex;Hidráulica;Sim;Manual;5;794
+V0794;MOD0266;CABINE DUPLA EXTREME MF;1.6-16V;Picape compacta;Combustão;Flex;Hidráulica;Sim;Manual;5;795
+V0795;MOD0267;GS DM;1.5-16V;Picape;Plug-in;Gasolina;Elétrica;Sim;Automática;1;796
+V0796;MOD0267;GL DM;1.5-16V;Picape;Plug-in;Gasolina;Elétrica;Sim;Automática;1;797
+V0797;MOD0268;Z71 Cabine Dupla;2.8-16V;Picape;Combustão;Diesel;Elétrica;Sim;Automática;8;798
+V0798;MOD0268;Z71;2.8-16V;Picape;Combustão;Diesel;Elétrica;Sim;Automática;8;799
+V0799;MOD0268;HC DD4A;2.8-16V;Picape;Combustão;Diesel;Elétrica;Sim;Automática;8;800
+V0800;MOD0268;LTZ DD4A;2.8-16V;Picape;Combustão;Diesel;Elétrica;Sim;Automática;8;801
+V0801;MOD0268;WT DD4A;2.8-16V;Picape;Combustão;Diesel;Elétrica;Sim;Automática;8;802
+V0802;MOD0268;LTZ DD4A;2.8-16V;Picape;Combustão;Diesel;Elétrica;Sim;Automática;8;803
+V0803;MOD0268;WT DS4;2.8-16V;Picape;Combustão;Diesel;Elétrica;Sim;Manual;6;804
+V0804;MOD0268;WT DS4C;2.8-16V;Picape;Combustão;Diesel;Elétrica;Sim;Manual;6;805
+V0805;MOD0268;WT DD4;2.8-16V;Picape;Combustão;Diesel;Elétrica;Sim;Manual;6;806
+V0806;MOD0268;HIGH COUNTRY Cabine Dupla;2.8-16V;Picape;Combustão;Diesel;Elétrica;Sim;Automática;8;807
+V0807;MOD0268;LTZ Cabine Dupla;2.8-16V;Picape;Combustão;Diesel;Elétrica;Sim;Automática;8;808
+V0808;MOD0268;WT Cabine Duple;2.8-16V;Picape;Combustão;Diesel;Elétrica;Sim;Automática;8;809
+V0809;MOD0268;WT Cabine Simples;2.8-16V;Picape;Combustão;Diesel;Elétrica;Sim;Manual;6;810
+V0810;MOD0268;WT Cabine Chassis;2.8-16V;Picape;Combustão;Diesel;Elétrica;Sim;Manual;6;811
+V0811;MOD0269;HIGH COUNTRY;5.3 V8;Picape;Combustão;Gasolina;Elétrica;Sim;Automática;10;812
+V0812;MOD0270;ENDURANCE;2.2T-16V;Picape;Combustão;Diesel;Hidráulica;Sim;Manual;6;813
+V0813;MOD0270;VOLCANO;2.2T-16V;Picape;Combustão;Diesel;Hidráulica;Sim;Automática;8;814
+V0814;MOD0270;RANCH;2.2T-16V;Picape;Combustão;Diesel;Hidráulica;Sim;Automática;8;815
+V0815;MOD0271;ENDUR T270 AT;1.3T-16V;Picape;Combustão;Flex;Elétrica;Sim;Automática;6;816
+V0816;MOD0271;FREED T270 AT;1.3T-16V;Picape;Combustão;Flex;Elétrica;Sim;Automática;6;817
+V0817;MOD0271;VOLC T270 AT;1.3T-16V;Picape;Combustão;Flex;Elétrica;Sim;Automática;6;818
+V0818;MOD0271;ULTRA T270 AT;1.3T-16V;Picape;Combustão;Flex;Elétrica;Sim;Automática;6;819
+V0819;MOD0271;RANCH TD450 AT;2.2T-16V;Picape;Combustão;Diesel;Elétrica;Sim;Automática;9;820
+V0820;MOD0271;VOLC TD450 AT;2.2T-16V;Picape;Combustão;Diesel;Elétrica;Sim;Automática;9;821
+V0821;MOD0271;FREED TD450 AT;2.2T-16V;Picape;Combustão;Diesel;Elétrica;Sim;Automática;9;822
+V0822;MOD0271;VOLC T270 HYB;1.3T-16V;Picape;Híbrido;Flex;Elétrica;Sim;Automática;6;823
+V0823;MOD0271;ULTRA T270 HYB;1.3T-16V;Picape;Híbrido;Flex;Elétrica;Sim;Automática;6;824
+V0824;MOD0272;Black;2.0-16V;Picape;Combustão;Diesel;Elétrica;Sim;Automática;6;825
+V0825;MOD0273;XL;2.0-16V;Picape;Combustão;Diesel;Elétrica;Sim;Manual;6;826
+V0826;MOD0273;XLS;2.0-16V;Picape;Combustão;Diesel;Elétrica;Sim;Manual;6;827
+V0827;MOD0273;XLS;2.0-16V;Picape;Combustão;Diesel;Elétrica;Sim;Automática;6;828
+V0828;MOD0273;LTD;3.0 V6-24V;Picape;Combustão;Diesel;Elétrica;Sim;Automática;10;829
+V0829;MOD0273;XLS;3.0 V6-24V;Picape;Combustão;Diesel;Elétrica;Sim;Automática;10;830
+V0830;MOD0273;XLT;3.0 V6-24V;Picape;Combustão;Diesel;Elétrica;Sim;Automática;10;831
+V0831;MOD0273;LTD+;3.0 V6-24V;Picape;Combustão;Diesel;Elétrica;Sim;Automática;10;832
+V0832;MOD0273;Cabine Simples;2.0-16V;Picape;Combustão;Diesel;Elétrica;Sim;Manual;6;833
+V0833;MOD0273;Chassis;2.0-16V;Picape;Combustão;Diesel;Elétrica;Sim;Manual;6;834
+V0834;MOD0273;Cabine Simples;2.0-16V;Picape;Combustão;Diesel;Elétrica;Sim;Automática;6;835
+V0835;MOD0273;Chassis;2.0-16V;Picape;Combustão;Diesel;Elétrica;Sim;Automática;6;836
+V0836;MOD0273;XL;2.0-16V;Picape;Combustão;Diesel;Elétrica;Sim;Automática;6;837
+V0837;MOD0274;Lariat Hybrid;2.5-16V;Picape;Híbrido;Gasolina;Elétrica;Sim;Continuamente variável eletrônica (eCVT);;838
+V0838;MOD0274;Lariat Black;2.0-16V;Picape;Combustão;Gasolina;Elétrica;Sim;Automática;8;839
+V0839;MOD0274;Tremor;2.0-16V;Picape;Combustão;Gasolina;Elétrica;Sim;Automática;8;840
+V0840;MOD0275;Tremor;5.0-32V;Picape;Combustão;Gasolina;Elétrica;Sim;Automática;10;841
+V0841;MOD0275;Lariat Black;5.0-32V;Picape;Combustão;Gasolina;Elétrica;Sim;Automática;10;842
+V0842;MOD0275;Lariat Chrome;5.0-32V;Picape;Combustão;Gasolina;Elétrica;Sim;Automática;10;843
+V0843;MOD0276;V7;2.0-16V;Picape;Híbrido;Diesel;Elétrica;Sim;Automática;8;844
+V0844;MOD0276;V9;2.0-16V;Picape;Híbrido;Diesel;Elétrica;Sim;Automática;8;845
+V0845;MOD0277;EXC;2.4-16V;Picape;Combustão;Diesel;Elétrica;Sim;Automática;9;846
+V0846;MOD0277;TRL;2.4-16V;Picape;Combustão;Diesel;Elétrica;Sim;Automática;9;847
+V0847;MOD0277;EXC (MY27);2.4-16V;Picape;Combustão;Diesel;Elétrica;Sim;Automática;9;848
+V0848;MOD0277;TRL (MY27);2.4-16V;Picape;Combustão;Diesel;Elétrica;Sim;Automática;9;849
+V0849;MOD0277;PRO (MY27);2.4-16V;Picape;Combustão;Diesel;Elétrica;Sim;Automática;9;850
+V0850;MOD0277;PRO;2.4-16V;Picape;Combustão;Diesel;Elétrica;Sim;Automática;9;851
+V0851;MOD0278;IEV330;Elétrico;Picape;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;852
+V0852;MOD0279;HUNTER AT;2.0-16V;Picape;Combustão;Diesel;Eletro-hidráulica;Sim;Automática;8;853
+V0853;MOD0279;HUNTER 4WORK;2.0-16V;Picape;Combustão;Diesel;Eletro-hidráulica;Sim;Automática;8;854
+V0854;MOD0279;HUNTER HD 4X4 AT C;2.0-16V;Picape;Combustão;Diesel;Eletro-hidráulica;Sim;Automática;8;855
+V0855;MOD0279;HUNTER HD 4X4 AT;2.0-16V;Picape;Combustão;Diesel;Eletro-hidráulica;Sim;Automática;8;856
+V0856;MOD0279;HUNTER HDX 4X4 AT;2.0-16V;Picape;Combustão;Diesel;Eletro-hidráulica;Sim;Automática;8;857
+V0857;MOD0279;HUNTER HD AT;2.0-16V;Picape;Combustão;Diesel;Eletro-hidráulica;Sim;Automática;8;858
+V0858;MOD0279;HUNTER HW AT;2.0-16V;Picape;Combustão;Diesel;Eletro-hidráulica;Sim;Automática;8;859
+V0859;MOD0279;HUNTER HW 4X4 AT;2.0-16V;Picape;Combustão;Diesel;Eletro-hidráulica;Sim;Automática;8;860
+V0860;MOD0280;RUBICON;3.6-24V;Picape;Combustão;Gasolina;Eletro-hidráulica;Sim;Automática;8;861
+V0861;MOD0281;BASIC;2.2-16V;Picape;Combustão;Diesel;Elétrica;Sim;Automática;8;862
+V0862;MOD0281;X-LINE;2.2-16V;Picape;Combustão;Diesel;Elétrica;Sim;Automática;8;863
+V0863;MOD0282;GL AT2;2.4-16V;Picape;Combustão;Diesel;Elétrica;Sim;Automática;;864
+V0864;MOD0282;GLS AT2;2.4-16V;Picape;Combustão;Diesel;Elétrica;Sim;Automática;;865
+V0865;MOD0282;GL MT4;2.4-16V;Picape;Combustão;Diesel;Elétrica;Sim;Manual;;866
+V0866;MOD0282;GL AT4;2.4-16V;Picape;Combustão;Diesel;Elétrica;Sim;Automática;;867
+V0867;MOD0282;GLS AT4;2.4-16V;Picape;Combustão;Diesel;Elétrica;Sim;Automática;;868
+V0868;MOD0282;HPE AT4;2.4-16V;Picape;Combustão;Diesel;Elétrica;Sim;Automática;;869
+V0869;MOD0282;HPE-S AT4;2.4-16V;Picape;Combustão;Diesel;Elétrica;Sim;Automática;;870
+V0870;MOD0282;KATANA AT4;2.4-16V;Picape;Combustão;Diesel;Elétrica;Sim;Automática;;871
+V0871;MOD0283;BIG HORN (CY26);3.0T-24V;Picape;Combustão;Gasolina;Elétrica;Sim;Automática;8;872
+V0872;MOD0283;LARAMIE;3.0T-24V;Picape;Combustão;Gasolina;Elétrica;Sim;Automática;8;873
+V0873;MOD0283;LARAMIE (CY26);3.0T-24V;Picape;Combustão;Gasolina;Elétrica;Sim;Automática;8;874
+V0874;MOD0283;REBEL;3.0T-24V;Picape;Combustão;Gasolina;Elétrica;Sim;Automática;8;875
+V0875;MOD0283;LARAMIE NE;3.0T-24V;Picape;Combustão;Gasolina;Elétrica;Sim;Automática;8;876
+V0876;MOD0283;LARAMIE NE (CY26);3.0T-24V;Picape;Combustão;Gasolina;Elétrica;Sim;Automática;8;877
+V0877;MOD0284;LARAMIE DS;2.2T-16V;Picape;Combustão;Diesel;Elétrica;Sim;Automática;9;878
+V0878;MOD0284;BIGHORN DS;2.2T-16V;Picape;Combustão;Diesel;Elétrica;Sim;Automática;9;879
+V0879;MOD0284;LARAMIE FLEX;2.0T-16V;Picape;Combustão;Flex;Elétrica;Sim;Automática;9;880
+V0880;MOD0284;LARAMIE GAS;2.0T-16V;Picape;Combustão;Gasolina;Elétrica;Sim;Automática;9;881
+V0881;MOD0284;REBEL AT GAS;2.0T-16V;Picape;Combustão;Gasolina;Elétrica;Sim;Automática;9;882
+V0882;MOD0284;REBEL DS;2.2T-16V;Picape;Combustão;Diesel;Elétrica;Sim;Automática;9;883
+V0883;MOD0284;REBEL FLEX;2.0T-16V;Picape;Combustão;Flex;Elétrica;Sim;Automática;9;884
+V0884;MOD0284;RT FLEX;2.0T-16V;Picape;Combustão;Flex;Elétrica;Sim;Automática;9;885
+V0885;MOD0284;RT GAS;2.0T-16V;Picape;Combustão;Gasolina;Elétrica;Sim;Automática;9;886
+V0886;MOD0285;BIGHORN;2.2T-16V;Picape;Combustão;Diesel;Elétrica;Sim;Automática;8;887
+V0887;MOD0285;LARAMIE;2.2T-16V;Picape;Combustão;Diesel;Elétrica;Sim;Automática;8;888
+V0888;MOD0285;WARLOCK;2.2T-16V;Picape;Combustão;Diesel;Elétrica;Sim;Automática;8;889
+V0889;MOD0285;LARAMIE NE;2.2T-16V;Picape;Combustão;Diesel;Elétrica;Sim;Automática;8;890
+V0890;MOD0286;CHASSI MT;2.8-16V;Picape;Combustão;Diesel;Hidráulica;Sim;Manual;6;891
+V0891;MOD0286;CABINE SIMPLES MT;2.8-16V;Picape;Combustão;Diesel;Hidráulica;Sim;Manual;6;892
+V0892;MOD0286;POWER PACK MT;2.8-16V;Picape;Combustão;Diesel;Hidráulica;Sim;Manual;6;893
+V0893;MOD0287;CHASSI AT;2.8-16V;Picape;Combustão;Diesel;Hidráulica;Sim;Automática;6;894
+V0894;MOD0287;CABINE SIMPLES AT;2.8-16V;Picape;Combustão;Diesel;Hidráulica;Sim;Automática;6;895
+V0895;MOD0287;POWER PACK AT;2.8-16V;Picape;Combustão;Diesel;Hidráulica;Sim;Automática;6;896
+V0896;MOD0287;SR AT;2.8-16V;Picape;Combustão;Diesel;Hidráulica;Sim;Automática;6;897
+V0897;MOD0287;SRV AT;2.8-16V;Picape;Combustão;Diesel;Hidráulica;Sim;Automática;6;898
+V0898;MOD0287;SRX AT;2.8-16V;Picape;Combustão;Diesel;Hidráulica;Sim;Automática;6;899
+V0899;MOD0287;SRX PLUS AT;2.8-16V;Picape;Combustão;Diesel;Hidráulica;Sim;Automática;6;900
+V0900;MOD0288;V6 COMFORT (MY26);3.0-24V;Picape;Combustão;Diesel;Hidráulica;Sim;Automática;8;901
+V0901;MOD0288;V6 HIGH (MY26);3.0-24V;Picape;Combustão;Diesel;Hidráulica;Sim;Automática;8;902
+V0902;MOD0288;V6 EXTREME (MY26);3.0-24V;Picape;Combustão;Diesel;Hidráulica;Sim;Automática;8;903
+V0903;MOD0289;Competition;3.0-24V;Esportivo;Combustão;Gasolina;Elétrica;Sim;Automática;8;904
+V0904;MOD0289;COMP TRACK;3.0-24V;Esportivo;Combustão;Gasolina;Elétrica;Sim;Automática;8;905
+V0905;MOD0290;Coupe;3.0-24V;Esportivo;Combustão;Gasolina;Elétrica;Sim;Automática;8;906
+V0906;MOD0290;Coupe Track;3.0-24V;Esportivo;Combustão;Gasolina;Elétrica;Sim;Automática;8;907
+V0907;MOD0291;Competition;3.0-24V;Esportivo;Combustão;Gasolina;Elétrica;Sim;Automática;8;908
+V0908;MOD0291;COMP TRACK;3.0-24V;Esportivo;Combustão;Gasolina;Elétrica;Sim;Automática;8;909
+V0909;MOD0290;CUP;3.0-24V;Esportivo;Combustão;Gasolina;Elétrica;Sim;Automática;8;910
+V0910;MOD0290;CUP;3.0-24V;Esportivo;Combustão;Gasolina;Elétrica;Sim;Automática;8;911
+V0911;MOD0292;GTB;3.0-24V;Esportivo;Plug-in;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);8;912
+V0912;MOD0293;--;6.5-48V;Esportivo;Combustão;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);8;913
+V0913;MOD0294;--;6.5-48V;Esportivo;Combustão;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);8;914
+V0914;MOD0294;SPI;6.5-48V;Esportivo;Combustão;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);8;915
+V0915;MOD0292;GTS;3.0-24V;Esportivo;Plug-in;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);8;916
+V0916;MOD0295;SPIDER;3.9-32V;Esportivo;Combustão;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);8;917
+V0917;MOD0296;Dark Horse;5.0 V8-32V;Esportivo;Combustão;Gasolina;Elétrica;Sim;Automática;10;918
+V0918;MOD0297;GT AT;5.0 V8-32V;Esportivo;Combustão;Gasolina;Elétrica;Sim;Automática;10;919
+V0919;MOD0298;;3.0-24V;Esportivo;Plug-in;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);8;920
+V0920;MOD0298;SPIDER;3.0-24V;Esportivo;Plug-in;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);8;921
+V0921;MOD0299;COUPE;4.0-32V;Esportivo;Combustão;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);8;922
+V0922;MOD0299;SPIDER;4.0-32V;Esportivo;Combustão;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);8;923
+V0923;MOD0300;;4.0-32V;Esportivo;Plug-in;Gasolina;Elétrica;Sim;Automática;9;924
+V0924;MOD0301;2P;4.0-32V;Esportivo;Plug-in;Gasolina;Elétrica;Sim;Automática;9;925
+V0925;MOD0301;;4.0-32V;Esportivo;Plug-in;Gasolina;Elétrica;Sim;Automática;9;926
+V0926;MOD0302;77 KWH AWD;Elétrico;Esportivo;Elétrico;Elétrico puro;Elétrica;Sim;Automática;1;927
+V0927;MOD0303;CARRERA;3.0-24V;Esportivo;Combustão;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);8;928
+V0928;MOD0303;CARRERA C;3.0-24V;Esportivo;Combustão;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);8;929
+V0929;MOD0303;CARRERA S;3.0-24V;Esportivo;Combustão;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);8;930
+V0930;MOD0303;CARRERA SC;3.0-24V;Esportivo;Combustão;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);8;931
+V0931;MOD0303;GT3 MANUAL;4.0-32V;Esportivo;Combustão;Gasolina;Elétrica;Sim;Manual;6;932
+V0932;MOD0303;GT3 TOURMT;4.0-32V;Esportivo;Combustão;Gasolina;Elétrica;Sim;Manual;6;933
+V0933;MOD0303;GT3;4.0-32V;Esportivo;Combustão;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);7;934
+V0934;MOD0303;GT3TOURING;4.0-32V;Esportivo;Combustão;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);7;935
+V0935;MOD0303;CAR T MT;3.0-24V;Esportivo;Combustão;Gasolina;Elétrica;Sim;Manual;6;936
+V0936;MOD0303;CAR T MT 2;3.0-24V;Esportivo;Combustão;Gasolina;Elétrica;Sim;Manual;6;937
+V0937;MOD0303;CAR T MTCA;3.0-24V;Esportivo;Combustão;Gasolina;Elétrica;Sim;Manual;6;938
+V0938;MOD0303;TURBO S / TURBO S CA;3.6/24V;Esportivo;Híbrido;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);8;939
+V0939;MOD0303;CARRERAGTS;3.6-24V;Esportivo;Híbrido;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);8;940
+V0940;MOD0303;CAR GTS CA;3.6-24V;Esportivo;Híbrido;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);8;941
+V0941;MOD0303;SPIRIT 70;3.6-24V;Esportivo;Híbrido;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);8;942
+V0942;MOD0303;GT3 FA 90Y;4.0-32V;Esportivo;Combustão;Gasolina;Elétrica;Sim;Manual;6;943
+V0943;MOD0303;TARGA 4GTS;3.6/24V;Esportivo;Híbrido;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);8;944
+V0944;MOD0303;GT3 FA 90Y;4.0-32V;Esportivo;Combustão;Gasolina;Elétrica;Sim;Manual;6;945
+V0945;MOD0303;TARGA 4GTS;3.6/24V;Esportivo;Híbrido;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);8;946
+V0946;MOD0303;GT3 SC;4.0-32V;Esportivo;Combustão;Gasolina;Elétrica;Sim;Manual;6;947
+V0947;MOD0304;GTS4.0;4.0-24V;Esportivo;Combustão;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);7;948
+V0948;MOD0304;25 ANOS;4.0-24V;Esportivo;Combustão;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);7;949
+V0949;MOD0305;GTS 4.0;4.0-24V;Esportivo;Combustão;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);7;950
+V0950;MOD0306;TPHEV;4.0-32V;Esportivo;Plug-in;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);8;951
+V0951;MOD0306;TSEHY;4.0-32V;Esportivo;Plug-in;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);8;952
+V0952;MOD0306;4EHYB;2.9-24V;Esportivo;Plug-in;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);8;953
+V0953;MOD0306;4SEHY;2.9-24V;Esportivo;Plug-in;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);8;954
+V0954;MOD0307;TURBO S;Elétrico;Esportivo;Elétrico;Elétrico puro;Elétrica;Sim;Não informado;;955
+V0955;MOD0307;4S;Elétrico;Esportivo;Elétrico;Elétrico puro;Elétrica;Sim;Não informado;;956
+V0956;MOD0307;4S BE;Elétrico;Esportivo;Elétrico;Elétrico puro;Elétrica;Sim;Não informado;;957
+V0957;MOD0307;TURBOCT;Elétrico;Esportivo;Elétrico;Elétrico puro;Elétrica;Sim;Não informado;;958
+V0958;MOD0307;4S CT;Elétrico;Esportivo;Elétrico;Elétrico puro;Elétrica;Sim;Não informado;;959
+V0959;MOD0307;4CT;Elétrico;Esportivo;Elétrico;Elétrico puro;Elétrica;Sim;Não informado;;960
+V0960;MOD0307;TURBOGT;Elétrico;Esportivo;Elétrico;Elétrico puro;Elétrica;Sim;Não informado;;961
+V0961;MOD0110;EV;Elétrico;Extragrande;Elétrico;Elétrico puro;Elétrica;Sim;Automática;;962
+V0962;MOD0184;PHEV;1.5T-16V;Extragrande;Plug-in;Gasolina;Elétrica;Sim;Híbrida dedicada (DHT);;963
+V0963;MOD0056;PHEV;1.5T-16V;Grande;Plug-in;Gasolina;Elétrica;Sim;Híbrida dedicada (DHT);;964
+V0964;MOD0308;INFINITY (LEV4);1.5 FLEX-16V;Utilitário esportivo grande;Combustão;Flex;Elétrica;Sim;Automática;8;965
+V0965;MOD0183;INFINITY (LEV4);1.5 FLEX-16V;Utilitário esportivo grande;Combustão;Flex;Elétrica;Sim;Automática de dupla embreagem (DCT);7;966
+V0966;MOD0184;16TA;1.6T-16V;Utilitário esportivo grande;Combustão;Gasolina;Elétrica;Sim;Automática de dupla embreagem (DCT);7;967
+V0967;MOD0161;PRO;1.5T-16V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);;968
+V0968;MOD0161;SPORT;1.5T-16V;Utilitário esportivo compacto;Combustão;Flex;Elétrica;Sim;Continuamente variável (CVT);;969
