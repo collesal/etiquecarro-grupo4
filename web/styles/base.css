@@ -64,26 +64,14 @@ em { font-style: italic; }
 
 [hidden] { display: none !important; }
 
-/* ---------- barra de acessibilidade ---------- */
+/* ---------- controles de acessibilidade (dentro do cabecalho) ---------- */
 .a11y {
-  background: var(--c-ink);
-  color: var(--c-bg);
-  font-size: var(--fs-xs);
-}
-.a11y-inner {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding-block: var(--s2);
-}
-.a11y-list {
+  margin-left: auto;
   display: flex;
   flex-wrap: wrap;
   gap: var(--s2);
   align-items: center;
-  margin: 0;
-  padding: 0;
-  list-style: none;
+  font-size: var(--fs-xs);
 }
 .a11y button {
   display: inline-flex;
@@ -93,15 +81,15 @@ em { font-style: italic; }
   border: 1px solid currentColor;
   border-radius: var(--r-pill);
   background: transparent;
-  color: var(--c-bg);
+  color: var(--c-ink);
   font: inherit;
   font-weight: var(--fw-medium);
   cursor: pointer;
   transition: background-color var(--dur-1) var(--ease), color var(--dur-1) var(--ease);
 }
-.a11y button:hover { background: var(--c-bg); color: var(--c-ink); }
-.a11y button[aria-pressed="true"] { background: var(--c-bg); color: var(--c-ink); }
-.a11y :focus-visible { outline: 3px solid var(--c-bg); outline-offset: 2px; }
+.a11y button:hover { background: var(--c-ink); color: var(--c-bg); }
+.a11y button[aria-pressed="true"] { background: var(--c-ink); color: var(--c-bg); }
+.a11y :focus-visible { outline: 3px solid var(--c-focus); outline-offset: 2px; }
 
 /* ---------- cabecalho ---------- */
 .site-header {

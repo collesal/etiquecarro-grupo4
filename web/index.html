@@ -17,22 +17,17 @@
 </head>
 <body>
 
-<div class="a11y" role="region" aria-label="Barra de acessibilidade">
-  <div class="wrap a11y-inner">
-    <ul class="a11y-list">
-      <li><button type="button" id="contraste" aria-pressed="false">Alto contraste</button></li>
-      <li><button type="button" id="fmenos" aria-label="Diminuir o tamanho do texto">A−</button></li>
-      <li><button type="button" id="fmais" aria-label="Aumentar o tamanho do texto">A+</button></li>
-    </ul>
-  </div>
-</div>
-
 <header class="site-header" id="site-header">
   <div class="wrap header-inner">
     <a class="brand" href="#buscar">
       <img class="logo-light" src="assets/logo-etiquecarro.png" width="367" height="74" alt="EtiqueCarro, página inicial">
       <img class="logo-dark" src="assets/logo-etiquecarro-dark.png" width="367" height="74" alt="" aria-hidden="true">
     </a>
+    <div class="a11y" role="group" aria-label="Acessibilidade">
+      <button type="button" id="contraste" aria-pressed="false">Alto contraste</button>
+      <button type="button" id="fmenos" aria-label="Diminuir o tamanho do texto">A−</button>
+      <button type="button" id="fmais" aria-label="Aumentar o tamanho do texto">A+</button>
+    </div>
   </div>
 </header>
 
