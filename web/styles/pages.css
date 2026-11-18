@@ -1,0 +1,214 @@
+/* Paginas: hero de busca, layout de resultados, painel de filtros (gaveta no celular),
+   comparacao, glossario e rodape. Breakpoints: 600px (celular largo), 900px (filtros em coluna). */
+
+/* ---------- hero de busca ---------- */
+.hero {
+  background: linear-gradient(180deg, var(--c-subtle) 0%, var(--c-bg) 100%);
+  min-height: min(78vh, 760px);
+  display: flex;
+  align-items: center;
+  padding-block: var(--s16) var(--s10);
+}
+.hero.is-compact {
+  min-height: 0;
+  padding-block: var(--s8) var(--s6);
+}
+.hero-inner {
+  display: grid;
+  gap: var(--s4);
+  max-width: 880px;
+}
+.eyebrow {
+  font-size: var(--fs-xs);
+  font-weight: var(--fw-medium);
+  color: var(--c-muted);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hero h1 {
+  font-size: var(--fs-display);
+  letter-spacing: -0.02em;
+  max-width: 22ch;
+}
+.lede {
+  font-size: 1.125rem;
+  color: var(--c-muted);
+  max-width: 60ch;
+}
+.hero .chips { margin-top: var(--s1); }
+.hero .howto { margin-top: var(--s1); }
+.hero.is-compact .lede,
+.hero.is-compact .eyebrow,
+.hero.is-compact .chips,
+.hero.is-compact .howto,
+.hero.is-compact .facts { display: none; }
+/* o h1 continua no DOM (alvo de foco da rota), so sai da tela */
+.hero.is-compact h1 {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+.facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s1) var(--s6);
+  color: var(--c-muted);
+  font-size: var(--fs-small);
+  margin-top: var(--s2);
+}
+.facts b { color: var(--c-ink); font-weight: var(--fw-medium); }
+
+/* ---------- layout de resultados ---------- */
+.results-layout {
+  display: grid;
+  grid-template-columns: 300px minmax(0, 1fr);
+  gap: var(--s8);
+  align-items: start;
+  padding-block: var(--s6) var(--s16);
+}
+.results { min-width: 0; }
+.filters {
+  display: grid;
+  gap: var(--s3);
+  position: sticky;
+  top: calc(var(--header-h) + var(--s2));
+  align-self: start;
+  max-height: calc(100dvh - var(--header-h) - var(--s4));
+  overflow-y: auto;
+  padding-bottom: var(--s2);
+}
+.filters:focus { outline: none; }
+.filters-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s2);
+}
+.filters-head h2 { font-size: 1.0625rem; }
+.filters-close,
+.filters-foot,
+.filters-toggle { display: none; }
+.fbody { display: grid; gap: var(--s3); }
+.scrim { display: none; }
+
+.rhead {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s3) var(--s4);
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--s3);
+}
+.rhead h2 { font-size: var(--fs-h2); }
+.rhead-tools { display: flex; flex-wrap: wrap; gap: var(--s2) var(--s3); align-items: center; }
+.sortbox { display: flex; flex-wrap: wrap; gap: var(--s2); align-items: center; font-size: var(--fs-small); }
+.sortbox select { min-height: 40px; }
+.active { display: flex; flex-wrap: wrap; gap: var(--s2); align-items: center; margin-bottom: var(--s4); }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: var(--s4);
+}
+
+/* ---------- comparacao e glossario: paginas ---------- */
+.page { padding-block: var(--s10) var(--s16); }
+.page-narrow { max-width: 920px; }
+.page-head { display: grid; gap: var(--s3); margin-bottom: var(--s6); }
+.page-head h1 { font-size: var(--fs-display); letter-spacing: -0.02em; }
+.page-head p { color: var(--c-muted); max-width: 70ch; }
+.gl-tools { display: flex; gap: var(--s2); flex-wrap: wrap; margin-top: var(--s2); }
+.az { margin-bottom: var(--s4); }
+.gl { display: grid; gap: var(--s6); }
+
+/* ---------- rodape ---------- */
+.site-footer {
+  border-top: 1px solid var(--c-line);
+  background: var(--c-surface);
+  color: var(--c-muted);
+  font-size: var(--fs-small);
+}
+.site-footer .wrap { display: grid; gap: var(--s2); padding-block: var(--s6) 120px; max-width: var(--max-w); }
+.site-footer p { max-width: 90ch; }
+
+/* ---------- celular ---------- */
+@media (max-width: 899px) {
+  .results-layout { grid-template-columns: minmax(0, 1fr); gap: var(--s4); }
+
+  .filters {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: min(360px, 88vw);
+    max-height: none;
+    z-index: 60;
+    background: var(--c-bg);
+    border-left: 1px solid var(--c-line);
+    padding: var(--s4);
+    transform: translateX(100%);
+    visibility: hidden;
+    transition: transform var(--dur-2) var(--ease), visibility 0s linear var(--dur-2);
+    overflow-y: auto;
+    grid-template-rows: auto 1fr auto;
+    align-content: start;
+  }
+  .filters.is-open {
+    transform: translateX(0);
+    visibility: visible;
+    transition: transform var(--dur-2) var(--ease), visibility 0s;
+  }
+  .filters-head { position: sticky; top: 0; background: var(--c-bg); padding-bottom: var(--s2); z-index: 1; }
+  .filters-close { display: inline-flex; }
+  .filters-foot {
+    display: flex;
+    position: sticky;
+    bottom: 0;
+    background: var(--c-bg);
+    padding-top: var(--s3);
+    border-top: 1px solid var(--c-line);
+    margin-top: var(--s3);
+  }
+  .filters-foot .btn { width: 100%; }
+  .filters-toggle { display: inline-flex; }
+  .scrim {
+    display: block;
+    position: fixed;
+    inset: 0;
+    background: var(--c-scrim);
+    z-index: 55;
+    transition: opacity var(--dur-2) var(--ease);
+  }
+  .scrim[hidden] { display: none; }
+  .filters-toggle[aria-expanded="true"] { border-color: var(--c-ink); }
+
+  .site-header { position: sticky; }
+  .site-header .header-inner { position: relative; }
+}
+
+@media (max-width: 599px) {
+  .hero { padding-block: var(--s10) var(--s8); min-height: 0; }
+  .search .btn { width: 100%; }
+  .grid { grid-template-columns: minmax(0, 1fr); }
+  .card-classes { flex-direction: row; }
+  .fields { grid-template-columns: minmax(0, 1fr) minmax(0, auto); }
+  .tray-actions .btn { flex: 1 1 auto; }
+  .cmpt .col-label { min-width: 140px; }
+}
+
+/* ---------- movimento: revelacao suave so com preferencia por movimento ---------- */
+@media (prefers-reduced-motion: no-preference) {
+  .js-reveal {
+    opacity: 0;
+    transform: translateY(8px);
+    transition: opacity var(--dur-3) var(--ease), transform var(--dur-3) var(--ease);
+  }
+  .js-reveal.is-in {
+    opacity: 1;
+    transform: none;
+  }
+}

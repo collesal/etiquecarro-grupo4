@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:,">
+  <meta name="description" content="Consulte a eficiência energética dos veículos da Tabela PBE Veicular 2026 do Inmetro.">
+  <title>EtiqueCarro</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap">
+  <link rel="stylesheet" href="styles/tokens.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/components.css">
+  <link rel="stylesheet" href="styles/pages.css">
+  <script type="module" src="src/main.js"></script>
+</head>
+<body>
+
+<div class="a11y" role="region" aria-label="Barra de acessibilidade">
+  <div class="wrap a11y-inner">
+    <ul class="a11y-list">
+      <li><button type="button" id="contraste" aria-pressed="false">Alto contraste</button></li>
+      <li><button type="button" id="fmenos" aria-label="Diminuir o tamanho do texto">A−</button></li>
+      <li><button type="button" id="fmais" aria-label="Aumentar o tamanho do texto">A+</button></li>
+    </ul>
+  </div>
+</div>
+
+<header class="site-header" id="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#buscar">
+      <img class="logo-light" src="assets/logo-etiquecarro.png" width="367" height="74" alt="EtiqueCarro, página inicial">
+      <img class="logo-dark" src="assets/logo-etiquecarro-dark.png" width="367" height="74" alt="" aria-hidden="true">
+    </a>
+  </div>
+</header>
+
+<main id="conteudo" tabindex="-1">
+
+  <!-- ===================== BUSCAR ===================== -->
+  <section id="view-buscar" aria-labelledby="h-buscar">
+    <div class="hero" id="hero">
+      <div class="wrap hero-inner">
+        <p class="eyebrow">Tabela PBE Veicular 2026 · Inmetro</p>
+        <h1 id="h-buscar" tabindex="-1">Quanto o carro gasta de energia?</h1>
+        <p class="lede">Pesquise pelo nome do carro ou pelo tipo que você procura, como <em>SUV elétrico</em> ou <em>picape flex</em>.</p>
+
+        <form id="qform" role="search" class="search" autocomplete="off">
+          <label for="q" class="sr-only">Buscar veículos</label>
+          <input id="q" name="q" type="search" placeholder="Ex.: Onix, SUV elétrico, Tiggo*" aria-describedby="qhint">
+          <button class="btn btn-primary" type="submit">Buscar</button>
+        </form>
+        <p id="qhint" class="hint">Aceita sinônimos e siglas, como PHEV ou VW. Use OU para alternativas, NÃO para excluir, asterisco para começar pelo nome e aspas para frase exata.</p>
+
+        <div class="chips" role="group" aria-label="Exemplos de busca">
+          <span class="chips-label">Experimente:</span>
+          <button class="chip" type="button" data-ex="PHEV">PHEV</button>
+          <button class="chip" type="button" data-ex="Tiggo*">Tiggo*</button>
+          <button class="chip" type="button" data-ex="Híbrido OU Plug-in">Híbrido OU Plug-in</button>
+          <button class="chip" type="button" data-ex="picape NÃO diesel">picape NÃO diesel</button>
+          <button class="chip" type="button" data-ex="elétrico autonomia>=400">elétrico autonomia&gt;=400</button>
+          <button class="chip" type="button" data-ex="SUV elétrico">SUV elétrico</button>
+        </div>
+
+        <details class="howto">
+          <summary>Como montar uma busca avançada</summary>
+          <table>
+            <thead><tr><th scope="col">Escreva</th><th scope="col">Para</th><th scope="col">Exemplo</th></tr></thead>
+            <tbody>
+              <tr><td>palavras separadas por espaço ou <code>E</code></td><td>exigir todas as condições</td><td><code>médio flex</code></td></tr>
+              <tr><td><code>OU</code></td><td>aceitar qualquer uma das alternativas vizinhas</td><td><code>híbrido OU plug-in</code></td></tr>
+              <tr><td><code>NÃO</code> ou sinal de menos</td><td>excluir</td><td><code>picape NÃO diesel</code></td></tr>
+              <tr><td><code>*</code> no fim da palavra</td><td>buscar pelo começo do nome</td><td><code>Tiggo*</code></td></tr>
+              <tr><td>aspas</td><td>buscar a expressão exata</td><td><code>"dolphin mini"</code></td></tr>
+              <tr><td><code>&gt;=</code> <code>&lt;=</code> <code>&gt;</code> <code>&lt;</code></td><td>limitar autonomia (km), consumo (MJ/km) ou CO2 (g/km)</td><td><code>autonomia&gt;=400</code>, <code>consumo&lt;=0,6</code></td></tr>
+            </tbody>
+          </table>
+        </details>
+
+        <div class="interp" id="interp" hidden></div>
+
+        <ul class="facts" aria-label="Sobre a base de dados">
+          <li><b class="num" id="f-v">–</b> versões ensaiadas</li>
+          <li><b class="num" id="f-m">–</b> modelos</li>
+          <li><b class="num" id="f-b">–</b> marcas</li>
+          <li><b class="num" id="f-c">–</b> categorias</li>
+          <li><b class="num" id="f-t">–</b> termos do tesauro</li>
+          <li>Fonte: Inmetro, Tabela PBE Veicular 2026</li>
+          <li id="f-db">Carregando os dados…</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="wrap results-layout">
+      <aside class="filters" id="filtros" aria-labelledby="ftitle" tabindex="-1">
+        <div class="filters-head">
+          <h2 id="ftitle">Filtros</h2>
+          <button class="btn btn-quiet" type="button" id="fclear">Limpar tudo</button>
+          <button class="btn btn-quiet filters-close" type="button" id="fclose">Fechar</button>
+        </div>
+        <div class="fbody" id="fbody"></div>
+        <div class="filters-foot">
+          <button class="btn btn-primary" type="button" id="fapply">Aplicar (<span id="fcount">–</span> resultados)</button>
+        </div>
+      </aside>
+      <div class="scrim" id="scrim" hidden></div>
+
+      <section class="results" id="results-section" aria-labelledby="rtitle">
+        <div id="status" class="status" hidden></div>
+        <div class="rhead">
+          <h2 id="rtitle" tabindex="-1"><span id="rcount" class="num">–</span> <span id="rword">veículos</span></h2>
+          <div class="rhead-tools">
+            <button class="btn btn-secondary btn-small filters-toggle" type="button" id="ftoggle" aria-expanded="false" aria-controls="filtros">Filtros</button>
+            <div class="sortbox">
+              <label for="sort">Ordenar por</label>
+              <select id="sort">
+                <option value="geral">Melhor classificação geral</option>
+                <option value="mj">Menor consumo energético</option>
+                <option value="aut">Maior autonomia elétrica</option>
+                <option value="co2">Menor emissão de CO2</option>
+                <option value="az">Marca e modelo (A–Z)</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <p class="sr-only" aria-live="polite" id="live"></p>
+        <div class="active" id="active"></div>
+        <ul class="grid" id="results"></ul>
+        <div id="empty"></div>
+        <div class="loadmore"><button class="btn btn-ghost" type="button" id="more" hidden>Mostrar mais</button></div>
+      </section>
+    </div>
+  </section>
+
+  <!-- ===================== COMPARAR ===================== -->
+  <section id="view-comparar" aria-labelledby="h-comparar" hidden>
+    <div class="wrap page">
+      <header class="page-head">
+        <h1 id="h-comparar" tabindex="-1">Comparar veículos</h1>
+        <p>Escolha até quatro veículos na busca marcando “Comparar”. A estrela indica o melhor valor de cada linha: menor consumo, maior autonomia, menos emissões.</p>
+      </header>
+      <div id="cmp-out"></div>
+    </div>
+  </section>
+
+  <!-- ===================== GLOSSÁRIO ===================== -->
+  <section id="view-glossario" aria-labelledby="h-glossario" hidden>
+    <div class="wrap page page-narrow">
+      <header class="page-head">
+        <h1 id="h-glossario" tabindex="-1">Entenda a etiqueta</h1>
+        <p>Os termos usados no site, organizados pelas facetas do tesauro do EtiqueCarro. Cada termo traz a definição técnica, uma explicação em palavras simples e os outros nomes pelos quais ele é conhecido. Ao buscar por qualquer um desses nomes, o site encontra o termo certo.</p>
+        <div class="gl-tools">
+          <label for="glq" class="sr-only">Filtrar termos do glossário</label>
+          <input id="glq" type="search" placeholder="Filtrar termos, ex.: PHEV, autonomia, SUV">
+        </div>
+      </header>
+      <nav class="az" id="az" aria-label="Índice A–Z"></nav>
+      <div class="gl" id="gl"></div>
+      <section class="notes" id="gl-trat" aria-labelledby="g-trat"></section>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>Dados: Instituto Nacional de Metrologia, Qualidade e Tecnologia (Inmetro), Programa Brasileiro de Etiquetagem Veicular, tabela de 2026, publicada no Portal de Dados Abertos do Governo Federal.</p>
+    <p>Protótipo acadêmico do projeto EtiqueCar, UFMG, Grupo 4. Os valores foram padronizados pelo pipeline do projeto; veja “Como os dados foram tratados” em <a href="#glossario">Entenda a etiqueta</a>.</p>
+  </div>
+</footer>
+
+<div class="tray" id="tray" hidden>
+  <div class="wrap tray-inner">
+    <div class="tray-text">
+      <span id="traytxt"></span>
+      <span id="traynote" class="tray-note" role="status" hidden></span>
+    </div>
+    <div class="tray-actions">
+      <a class="btn btn-primary btn-small" href="#comparar">Comparar agora</a>
+      <button class="btn btn-ghost btn-small" type="button" id="trayclear">Limpar seleção</button>
+    </div>
+  </div>
+</div>
+
+<dialog id="ficha" aria-labelledby="fh"></dialog>
+
+</body>
+</html>
