@@ -16,7 +16,9 @@
 .hero-inner {
   display: grid;
   gap: var(--s4);
-  max-width: 880px;
+  /* mesma margem esquerda do cabecalho, filtros e resultados (.wrap); a largura do texto vem de h1 e lede */
+  max-width: var(--max-w);
+  width: 100%;
 }
 .eyebrow {
   font-size: var(--fs-xs);
