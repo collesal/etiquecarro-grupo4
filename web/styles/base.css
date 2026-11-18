@@ -113,24 +113,51 @@ em { font-style: italic; }
 .brand {
   display: inline-flex;
   align-items: center;
+  gap: var(--s3);
   color: var(--c-ink);
   text-decoration: none;
 }
-.brand img {
-  display: block;
-  height: 44px;
+/* marca animada: ponteiro acelera e o carro anda em linha reta, volta ao inicio e repete */
+.brand .mark {
   width: auto;
+  height: 68px;
+  flex: none;
+  overflow: visible;
 }
-.brand .logo-dark { display: none; }
-/* Logo escuro (texto claro) quando o fundo do tema e escuro */
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) .brand .logo-light { display: none; }
-  :root:not([data-theme="light"]) .brand .logo-dark { display: block; }
+.brand .wm {
+  font-family: var(--font);
+  font-weight: 700;
+  font-size: 1.75rem;
+  letter-spacing: -0.02em;
+  color: var(--c-ink);
 }
-:root[data-theme="dark"] .brand .logo-light,
-:root.alto-contraste .brand .logo-light { display: none; }
-:root[data-theme="dark"] .brand .logo-dark,
-:root.alto-contraste .brand .logo-dark { display: block; }
+.brand .wm b { color: var(--cA); font-weight: 700; }
+.brand .needle {
+  transform-box: view-box;
+  transform-origin: 60px 64px;
+  animation: ponteiro 4.8s cubic-bezier(.3,.1,.3,1) infinite;
+}
+.brand .car {
+  animation: carro 4.8s linear infinite;
+}
+@keyframes ponteiro {
+  0%   { transform: rotate(-70deg); }
+  45%  { transform: rotate(55deg); }   /* acelera */
+  70%  { transform: rotate(35deg); }
+  85%  { transform: rotate(40deg); }
+  100% { transform: rotate(-70deg); }  /* volta ao repouso */
+}
+@keyframes carro {
+  0%   { transform: translateX(0); opacity: 1; }
+  55%  { transform: translateX(0); opacity: 1; }
+  85%  { transform: translateX(30px); opacity: 1; }   /* segue em linha reta */
+  86%  { transform: translateX(30px); opacity: 0; }
+  87%  { transform: translateX(0); opacity: 0; }      /* volta ao ponto de partida */
+  100% { transform: translateX(0); opacity: 1; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .brand .needle, .brand .car { animation: none; }
+}
 
 /* ---------- movimento: so com preferencia por movimento ---------- */
 @media (prefers-reduced-motion: reduce) {
