@@ -96,6 +96,7 @@ em { font-style: italic; }
   position: sticky;
   top: 0;
   z-index: 30;
+  overflow: hidden; /* o carro some pelas bordas, como se passasse por tras da tela */
   background: transparent;
   transition: background-color var(--dur-2) var(--ease), box-shadow var(--dur-2) var(--ease);
 }
@@ -117,7 +118,37 @@ em { font-style: italic; }
   color: var(--c-ink);
   text-decoration: none;
 }
-/* marca: a animacao fica no proprio SVG (SMIL) em index.html */
+/* faixa: o carro atravessa o cabecalho da esquerda para a direita e reaparece na esquerda */
+.road {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 12px;
+  height: 36px;
+  pointer-events: none;
+  color: var(--c-ink);
+  z-index: 0;
+}
+.road-car {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 120px;
+  height: 36px;
+  animation: passagem 4.8s linear infinite;
+}
+.road-car svg { width: 100%; height: 100%; display: block; }
+.brand, .a11y { position: relative; z-index: 1; }
+@keyframes passagem {
+  0%   { transform: translateX(-130px); }
+  85%  { transform: translateX(100vw); }   /* sai pela direita */
+  100% { transform: translateX(100vw); }   /* fora da tela; reinicia pela esquerda */
+}
+@media (prefers-reduced-motion: reduce) {
+  .road { display: none; }
+}
+
+/* marca: a animacao do ponteiro fica no proprio SVG (SMIL) em index.html */
 .brand .mark { width: 106px; height: 68px; flex: none; }
 .brand .wm {
   font-family: var(--font);
