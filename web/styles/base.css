@@ -78,7 +78,7 @@ em { font-style: italic; }
   align-items: center;
   min-height: 36px;
   padding: 6px 14px;
-  border: 1px solid currentColor;
+  border: 1px solid var(--c-line-strong);
   border-radius: var(--r-pill);
   background: transparent;
   color: var(--c-ink);
@@ -88,8 +88,45 @@ em { font-style: italic; }
   transition: background-color var(--dur-1) var(--ease), color var(--dur-1) var(--ease);
 }
 .a11y button:hover { background: var(--c-ink); color: var(--c-bg); }
-.a11y button[aria-pressed="true"] { background: var(--c-ink); color: var(--c-bg); }
+.a11y button[aria-pressed="true"] { background: var(--c-ink); color: var(--c-bg); border-color: var(--c-ink); }
 .a11y :focus-visible { outline: 3px solid var(--c-focus); outline-offset: 2px; }
+
+/* ---------- cabecalho ---------- */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  background: transparent;
+  transition: background-color var(--dur-2) var(--ease), box-shadow var(--dur-2) var(--ease);
+}
+.site-header.is-scrolled {
+  background: var(--c-surface);
+  box-shadow: 0 1px 0 var(--c-line);
+}
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s4);
+  min-height: var(--header-h);
+}
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s3);
+  color: var(--c-ink);
+  text-decoration: none;
+}
+/* marca: a animacao fica no proprio SVG (SMIL) em index.html */
+.brand .mark { width: 106px; height: 68px; flex: none; }
+.brand .wm {
+  font-family: var(--font);
+  font-weight: 700;
+  font-size: 1.75rem;
+  letter-spacing: -0.02em;
+  color: var(--c-ink);
+}
+.brand .wm b { color: var(--cA); font-weight: 700; }
 
 /* ---------- cabecalho ---------- */
 .site-header {
