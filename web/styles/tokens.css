@@ -1,0 +1,117 @@
+/* Tokens de design. Neutros, um acento azul proprio, escala de espacamento de 4px,
+   raios 4/8/12, Inter com fallback de sistema, movimento 150/300/500ms com ease-out.
+   Cores A–E sempre com a letra visivel (nunca so cor).
+   Modo escuro: prefers-color-scheme e data-theme. Alto contraste: classe .alto-contraste (botao da barra)
+   e prefers-contrast: more (em base.css). */
+
+:root {
+  color-scheme: light;
+
+  /* neutros */
+  --c-bg: #ffffff;
+  --c-surface: #ffffff;
+  --c-subtle: #f4f4f4;
+  --c-ink: #171a20;
+  --c-muted: #393c41;
+  --c-line: #d0d1d2;
+  --c-line-strong: #171a20;
+
+  --c-error: #b3261e;
+
+  /* acento unico (texto de links e foco: 6.57:1 sobre branco) */
+  --c-accent: #1456c8;
+  --c-accent-ink: #ffffff;
+  --c-focus: #1456c8;
+  --c-link: #1456c8;
+  --c-scrim: rgba(23, 26, 32, 0.56);
+
+  /* classes de eficiencia: cor de fundo + letra (contraste >= 5:1 com a letra) */
+  --cA: #1a7f3b; --oA: #ffffff;
+  --cB: #72b641; --oB: #13240c;
+  --cC: #f2c214; --oC: #2a2100;
+  --cD: #ee861d; --oD: #2a1400;
+  --cE: #d4251d; --oE: #ffffff;
+
+  /* espacamento (4px) */
+  --s1: 4px; --s2: 8px; --s3: 12px; --s4: 16px; --s5: 20px;
+  --s6: 24px; --s8: 32px; --s10: 40px; --s12: 48px; --s16: 64px;
+
+  /* raios */
+  --r1: 4px; --r2: 8px; --r3: 12px; --r-pill: 999px;
+
+  /* tipografia */
+  --font: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fs-body: 1rem;
+  --fs-small: 0.875rem;
+  --fs-xs: 0.8125rem;
+  --fs-h2: 1.5rem;
+  --fs-display: clamp(2rem, 1.3rem + 2.8vw, 3rem);
+  --fs-num: 2.5rem;
+
+  /* movimento */
+  --dur-1: 150ms;
+  --dur-2: 300ms;
+  --dur-3: 500ms;
+  --ease: cubic-bezier(0, 0, 0.2, 1);
+
+  /* layout */
+  --max-w: 1280px;
+  --gutter: 16px;
+  --header-h: 56px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --c-bg: #171a20;
+    --c-surface: #1e2229;
+    --c-subtle: #232830;
+    --c-ink: #f4f4f4;
+    --c-muted: #c5c8cd;
+    --c-line: #3a3f48;
+    --c-line-strong: #f4f4f4;
+    --c-error: #ffb4a9;
+    --c-accent: #8fb2ff;
+    --c-accent-ink: #171a20;
+    --c-focus: #8fb2ff;
+    --c-link: #8fb2ff;
+    --c-scrim: rgba(0, 0, 0, 0.6);
+  }
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --c-bg: #171a20;
+  --c-surface: #1e2229;
+  --c-subtle: #232830;
+  --c-ink: #f4f4f4;
+  --c-muted: #c5c8cd;
+  --c-line: #3a3f48;
+  --c-line-strong: #f4f4f4;
+  --c-error: #ffb4a9;
+  --c-accent: #8fb2ff;
+  --c-accent-ink: #171a20;
+  --c-focus: #8fb2ff;
+  --c-link: #8fb2ff;
+  --c-scrim: rgba(0, 0, 0, 0.6);
+}
+
+/* alto contraste (botao da barra de acessibilidade) */
+:root.alto-contraste {
+  color-scheme: dark;
+  --c-bg: #000000;
+  --c-surface: #000000;
+  --c-subtle: #111111;
+  --c-ink: #ffffff;
+  --c-muted: #ffffff;
+  --c-line: #ffffff;
+  --c-line-strong: #ffffff;
+  --c-error: #ffe600;
+  --c-accent: #ffe600;
+  --c-accent-ink: #000000;
+  --c-focus: #ffe600;
+  --c-link: #ffe600;
+  --c-scrim: rgba(0, 0, 0, 0.8);
+}

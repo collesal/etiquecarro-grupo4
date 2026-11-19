@@ -1,0 +1,271 @@
+/* Base: reset, tipografia, foco, utilitarios, barra de acessibilidade, cabecalho.
+   Acessibilidade: foco visivel, prefers-contrast, forced-colors, prefers-reduced-motion. */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--c-bg);
+  color: var(--c-ink);
+  font-family: var(--font);
+  font-weight: var(--fw-regular);
+  font-size: var(--fs-body);
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  font-weight: var(--fw-medium);
+  line-height: 1.2;
+  text-wrap: balance;
+}
+
+p { margin: 0; }
+ul, ol { margin: 0; padding: 0; list-style: none; }
+dl, dd, dt, figure { margin: 0; }
+img, svg { max-width: 100%; }
+button, input, select, textarea { font: inherit; color: inherit; }
+a { color: var(--c-link); text-underline-offset: 2px; }
+code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 0.95em; }
+em { font-style: italic; }
+
+/* foco visivel em tudo que recebe foco */
+:focus-visible {
+  outline: 3px solid var(--c-focus);
+  outline-offset: 2px;
+  border-radius: var(--r1);
+}
+
+.wrap {
+  max-width: var(--max-w);
+  margin-inline: auto;
+  padding-inline: max(var(--gutter), env(safe-area-inset-left, 0px)) max(var(--gutter), env(safe-area-inset-right, 0px));
+}
+
+.sr-only {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.num { font-variant-numeric: tabular-nums; }
+
+[hidden] { display: none !important; }
+
+/* ---------- controles de acessibilidade (dentro do cabecalho) ---------- */
+.a11y {
+  margin-left: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s2);
+  align-items: center;
+  font-size: var(--fs-xs);
+}
+.a11y button {
+  display: inline-flex;
+  align-items: center;
+  min-height: 36px;
+  padding: 6px 14px;
+  border: 1px solid var(--c-line-strong);
+  border-radius: var(--r-pill);
+  background: transparent;
+  color: var(--c-ink);
+  font: inherit;
+  font-weight: var(--fw-medium);
+  cursor: pointer;
+  transition: background-color var(--dur-1) var(--ease), color var(--dur-1) var(--ease);
+}
+.a11y button:hover { background: var(--c-ink); color: var(--c-bg); }
+.a11y button[aria-pressed="true"] { background: var(--c-ink); color: var(--c-bg); border-color: var(--c-ink); }
+.a11y :focus-visible { outline: 3px solid var(--c-focus); outline-offset: 2px; }
+
+/* ---------- cabecalho ---------- */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  overflow: hidden; /* o carro some pelas bordas, como se passasse por tras da tela */
+  background: transparent;
+  transition: background-color var(--dur-2) var(--ease), box-shadow var(--dur-2) var(--ease);
+}
+.site-header.is-scrolled {
+  background: var(--c-surface);
+  box-shadow: 0 1px 0 var(--c-line);
+}
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s4);
+  min-height: var(--header-h);
+}
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s3);
+  color: var(--c-ink);
+  text-decoration: none;
+}
+/* faixa: o carro atravessa o cabecalho da esquerda para a direita e reaparece na esquerda */
+.road {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 12px;
+  height: 36px;
+  pointer-events: none;
+  color: var(--c-ink);
+  z-index: 0;
+}
+.road-car {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 120px;
+  height: 36px;
+  animation: passagem 7.2s linear infinite;
+}
+.road-car svg { width: 100%; height: 100%; display: block; }
+.brand, .a11y { position: relative; z-index: 1; }
+@keyframes passagem {
+  0%   { transform: translateX(-130px); }
+  85%  { transform: translateX(100vw); }   /* sai pela direita */
+  100% { transform: translateX(100vw); }   /* fora da tela; reinicia pela esquerda */
+}
+@media (prefers-reduced-motion: reduce) {
+  .road { display: none; }
+}
+
+/* marca: a animacao do ponteiro fica no proprio SVG (SMIL) em index.html */
+.brand .mark { width: 106px; height: 68px; flex: none; }
+.brand .wm {
+  font-family: var(--font);
+  font-weight: 700;
+  font-size: 1.75rem;
+  letter-spacing: -0.02em;
+  color: var(--c-ink);
+}
+.brand .wm b { color: var(--cA); font-weight: 700; }
+
+/* ---------- cabecalho ---------- */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  background: transparent;
+  transition: background-color var(--dur-2) var(--ease), box-shadow var(--dur-2) var(--ease);
+}
+.site-header.is-scrolled {
+  background: var(--c-surface);
+  box-shadow: 0 1px 0 var(--c-line);
+}
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s4);
+  min-height: var(--header-h);
+}
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s3);
+  color: var(--c-ink);
+  text-decoration: none;
+}
+/* marca animada: ponteiro acelera e o carro anda em linha reta, volta ao inicio e repete */
+.brand .mark {
+  width: auto;
+  height: 68px;
+  flex: none;
+  overflow: visible;
+}
+.brand .wm {
+  font-family: var(--font);
+  font-weight: 700;
+  font-size: 1.75rem;
+  letter-spacing: -0.02em;
+  color: var(--c-ink);
+}
+.brand .wm b { color: var(--cA); font-weight: 700; }
+.brand .needle {
+  transform-box: view-box;
+  transform-origin: 60px 64px;
+  animation: ponteiro 4.8s cubic-bezier(.3,.1,.3,1) infinite;
+}
+.brand .car {
+  animation: carro 4.8s linear infinite;
+}
+@keyframes ponteiro {
+  0%   { transform: rotate(-70deg); }
+  45%  { transform: rotate(55deg); }   /* acelera */
+  70%  { transform: rotate(35deg); }
+  85%  { transform: rotate(40deg); }
+  100% { transform: rotate(-70deg); }  /* volta ao repouso */
+}
+@keyframes carro {
+  0%   { transform: translateX(0); opacity: 1; }
+  55%  { transform: translateX(0); opacity: 1; }
+  85%  { transform: translateX(30px); opacity: 1; }   /* segue em linha reta */
+  86%  { transform: translateX(30px); opacity: 0; }
+  87%  { transform: translateX(0); opacity: 0; }      /* volta ao ponto de partida */
+  100% { transform: translateX(0); opacity: 1; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .brand .needle, .brand .car { animation: none; }
+}
+
+/* ---------- movimento: so com preferencia por movimento ---------- */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 1ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ---------- contraste aumentado (sistema) ---------- */
+@media (prefers-contrast: more) {
+  :root {
+    --c-muted: var(--c-ink);
+    --c-line: var(--c-ink);
+  }
+  :root:not([data-theme="light"]) { --c-line: #ffffff; }
+  :focus-visible { outline-width: 4px; }
+}
+
+/* ---------- forced-colors (modo de cores do sistema, ex.: Windows) ---------- */
+@media (forced-colors: active) {
+  .letter,
+  .ebar,
+  .class-pill,
+  .best-tag,
+  .chip,
+  .chip-active,
+  .btn {
+    forced-color-adjust: none;
+    border: 2px solid CanvasText;
+    background: Canvas;
+    color: CanvasText;
+  }
+  .btn-primary { background: Highlight; color: HighlightText; border-color: Highlight; }
+  .card, .facet, .ence, .term, .empty, .filters, .dlg-head { border: 1px solid CanvasText; }
+  .opt input, .cmp input { accent-color: Highlight; }
+  .scrim { background: transparent; }
+  :focus-visible { outline: 3px solid Highlight; }
+  .tray { border-top: 2px solid CanvasText; }
+  .site-header.is-scrolled { border-bottom: 1px solid CanvasText; box-shadow: none; }
+}

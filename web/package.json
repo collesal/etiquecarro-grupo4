@@ -1,0 +1,6 @@
+{
+  "name": "etiquecarro-web",
+  "private": true,
+  "type": "module",
+  "description": "Front do EtiqueCar em ES modules nativos (sem build). Testes: node --test tests/domain.test.js"
+}
