@@ -12,18 +12,15 @@ permissions:
 
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
 
-      # O front busca os dados via ../../../saida e ../../../tesauro.json
+      # O front busca os dados em ../../../saida e ../../../tesauro.json
       # (relativo a web/src/data), entao o layout do repositorio e mantido.
       - name: Montar o site
         run: |
@@ -33,12 +30,20 @@ jobs:
           cp saida/veiculos.json _site/saida/
           cp tesauro.json _site/
           echo '<!doctype html><meta charset="utf-8"><meta http-equiv="refresh" content="0; url=web/"><link rel="canonical" href="web/"><a href="web/">EtiqueCarro</a>' > _site/index.html
-          touch _site/.nojekyll
+          ls -R _site | head -40
 
       - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+
+      - uses: actions/upload-pages-artifact@v4
         with:
           path: _site
 
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - id: deployment
         uses: actions/deploy-pages@v4
